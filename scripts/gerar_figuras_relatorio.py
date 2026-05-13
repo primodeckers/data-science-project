@@ -27,6 +27,23 @@ PARQUET = ROOT / "data" / "investimentos_2021_2025.parquet"
 OUT_DIR = ROOT / "figures"
 
 
+def _finalize_fig(fig: plt.Figure, path: Path, *, footnote: str) -> None:
+    """Reserva margem inferior para uma nota curta de leitura (não substitui o texto do relatório)."""
+    plt.tight_layout(rect=[0, 0.08, 1, 0.99])
+    fig.text(
+        0.5,
+        0.012,
+        footnote,
+        ha="center",
+        va="bottom",
+        fontsize=8.25,
+        color="#2c3e50",
+        style="italic",
+    )
+    fig.savefig(path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+
 def _fig01_evolucao(df: pd.DataFrame, path: Path) -> None:
     sns.set_theme(style="whitegrid", context="notebook", font_scale=1.05)
     by_year = df.groupby("ano")["valor_reais"].sum() / 1e9
@@ -48,9 +65,11 @@ def _fig01_evolucao(df: pd.DataFrame, path: Path) -> None:
     ax1.set_title("Variação % em relação ao ano anterior")
     ax1.set_xlabel("Ano")
     ax1.set_ylabel("Variação (%)")
-    plt.tight_layout()
-    fig.savefig(path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
+    _finalize_fig(
+        fig,
+        path,
+        footnote="Valores = liquidações em caixa (GND 4 e 5, governo central). YoY: variação % face ao ano anterior.",
+    )
 
 
 def _fig02_composicao(df: pd.DataFrame, path: Path) -> None:
@@ -81,9 +100,11 @@ def _fig02_composicao(df: pd.DataFrame, path: Path) -> None:
     ax.set_xlabel("Ano")
     ax.set_title("Investimentos vs inversões financeiras — share dentro de cada exercício")
     ax.legend(title="Grupo de despesa", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
-    plt.tight_layout()
-    fig.savefig(path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
+    _finalize_fig(
+        fig,
+        path,
+        footnote="Cada coluna soma 100 % no ano: mostra composição (4 vs 5), não o montante absoluto de caixa.",
+    )
 
 
 def _fig03_orgaos_sazonalidade(df: pd.DataFrame, path: Path) -> None:
@@ -105,9 +126,14 @@ def _fig03_orgaos_sazonalidade(df: pd.DataFrame, path: Path) -> None:
     axm.set_xticklabels([str(i)[:3].title() for i in mensal.index], rotation=35, ha="right")
     axm.set_ylabel("R$ bilhões")
     axm.set_title("Sazonalidade: soma de caixa por mês (todos os anos)")
-    plt.tight_layout()
-    fig.savefig(path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
+    _finalize_fig(
+        fig,
+        path,
+        footnote=(
+            "Órgãos: soma 2021–2025 (concentração). Meses: soma de todos os anos — "
+            "picos em dezembro são comuns no fecho de exercício."
+        ),
+    )
 
 
 def _fig04_regiao_ano(df: pd.DataFrame, path: Path) -> None:
@@ -127,9 +153,11 @@ def _fig04_regiao_ano(df: pd.DataFrame, path: Path) -> None:
     axh.set_title("Pagamentos por região e ano (excl. SEM INFO / NACIONAL / EXTERIOR)")
     axh.set_xlabel("Ano")
     axh.set_ylabel("Região")
-    plt.tight_layout()
-    fig.savefig(path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
+    _finalize_fig(
+        fig,
+        path,
+        footnote="Cada célula = R$ bi liquidados; leitura regional depende do cadastro (UF/município com lacunas).",
+    )
 
 
 def _fig05_correlacao(df: pd.DataFrame, path: Path) -> None:
@@ -153,13 +181,12 @@ def _fig05_correlacao(df: pd.DataFrame, path: Path) -> None:
         ax=ax,
         cbar_kws={"shrink": 0.75, "label": "Pearson"},
     )
-    ax.set_title(
-        "Co-movimento entre regiões (totais anuais, R$ milhões)\n"
-        "Correlação no tempo ≠ relação causal entre regiões"
+    ax.set_title("Correlação de Pearson entre regiões (totais anuais, R$ milhões)")
+    _finalize_fig(
+        fig,
+        path,
+        footnote="Séries curtas (cinco anos). Alta correlação = co-movimento no tempo, não “causa” entre regiões.",
     )
-    plt.tight_layout()
-    fig.savefig(path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
 
 
 def main() -> None:

@@ -127,23 +127,23 @@ Dezembro: ~18,5 %–29,4 % do caixa anual — fecho de exercício.
 
 ### 3.7 Figuras e interpretação
 
-Figura 1 — Total pago por ano e variação % face ao ano anterior (GND 4 e 5, governo central).
+![Figura 1 — Total pago por ano e variação % face ao ano anterior (GND 4 e 5, governo central).](figures/fig01_evolucao.png)
 
 Níveis e YoY (tabela 3.1); sem desagregar 4/5 não se identifica o choque 2022/2023 internamente.
 
-Figura 2 — Participação de cada grupo de despesa dentro de cada exercício (barras empilhadas a 100 %).
+![Figura 2 — Participação de cada grupo de despesa dentro de cada exercício (barras empilhadas a 100 %).](figures/fig02_composicao.png)
 
 *Share* por ano; 2022 dominado por 4 vs 2021 com mais 5 — checar ações por trás das fatias.
 
-Figura 3 — Concentração por órgão máximo (12 maiores) e perfil mensal de caixa (soma dos anos).
+![Figura 3 — Concentração por órgão máximo (12 maiores) e perfil mensal de caixa (soma dos anos).](figures/fig03_orgaos_sazonalidade.png)
 
 Órgãos (cf. 3.3) e soma mensal; dezembro = ritmo de exercício (cf. 3.6).
 
-Figura 4 — Pagamentos por região e ano (bilhões R$), após exclusão de categorias geográficas problemáticas.
+![Figura 4 — Pagamentos por região e ano (bilhões R$), após exclusão de categorias geográficas problemáticas.](figures/fig04_regiao_ano.png)
 
 Sul/2024 = hipótese de investigação, não prova de prioridade regional.
 
-Figura 5 — Coeficientes de correlação (Pearson) entre totais anuais por macro-região (séries 2021–2025).
+![Figura 5 — Coeficientes de correlação (Pearson) entre totais anuais por macro-região (séries 2021–2025).](figures/fig05_correlacao_regioes.png)
 
 Co-movimento em séries curtas; não causalidade; uso exploratório.
 

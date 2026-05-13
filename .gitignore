@@ -13,6 +13,9 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Arquivos compactados de backup (não são fonte do pipeline)
+*.rar
+
 # SO / editores
 .DS_Store
 Thumbs.db

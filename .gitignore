@@ -1,9 +1,30 @@
+# Ambientes virtuais
 .venv/
 venv/
+
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
 .pytest_cache/
 .mypy_cache/
 .ipynb_checkpoints/
 *.egg-info/
+.coverage
+htmlcov/
+
+# Dados brutos (grandes; não versionar — ver README)
+investimentos_20*.csv
+investimentos-2025.xlsx
+
+# SO / editores
 .DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Ferramentas locais
+*.log
+tmp/
+temp/

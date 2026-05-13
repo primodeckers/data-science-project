@@ -6,7 +6,8 @@ Análise exploratória de pagamentos liquidados (governo central, 2021–2025), 
 
 | Caminho | Descrição |
 |---------|-----------|
-| `data/investimentos_2021_2025.parquet` | Base unificada gerada pelos scripts (versionada). |
+| `data/investimentos_2021_2025.parquet` | Base unificada gerada pelos scripts (também versionada). |
+| `investimentos_2021.csv` … `investimentos_2024.csv`, `investimentos-2025.xlsx` | Arquivos brutos na raiz (entrada de `carregar_investimentos.py`). |
 | `figures/` | PNG usados no `relatorio_investimentos.md` (gerados por script). |
 | `notebooks/exploracao_investimentos.ipynb` | Exploração interativa sobre o Parquet. |
 | `scripts/carregar_investimentos.py` | Lê CSV + XLSX na raiz e grava o Parquet. |
@@ -16,7 +17,7 @@ Análise exploratória de pagamentos liquidados (governo central, 2021–2025), 
 | `relatorio_investimentos.md` | Fonte do relatório em Markdown. |
 | `relatorio_investimentos.docx` | Relatório em Word (pode voltar a gerar com o script). |
 | `relatorio_cabecalho.json` | Campos da capa IDP para o DOCX. |
-| `metadados-investimentos.pdf` | Metadados / dicionário de campos dos ficheiros de origem. |
+| `metadados-investimentos.pdf` | Metadados / dicionário de campos dos arquivos de origem. |
 | `dicionario-de-dados.odt` | Dicionário de dados (documento de apoio). |
 | `requirements.txt` | Dependências Python. |
 | `trabalho-final-projeto-integrado.md` | Enunciado / texto de apoio ao projeto. |
@@ -27,10 +28,9 @@ Outros CSV na raiz (`conjunto-dados.csv`, `temas-compras-contratos.csv`) são au
 
 Definido em `.gitignore`:
 
-- **Dados brutos** `investimentos_2021.csv` … `investimentos_2024.csv` e `investimentos-2025.xlsx` (dezenas de MB; obtidos pelo portal / disciplina e colocados localmente na raiz).
-- Ambientes virtuais, cache Python, checkpoints de Jupyter, ficheiros temporários e pastas comuns de IDE.
+- Ambientes virtuais, cache Python, checkpoints de Jupyter, arquivos temporários e pastas comuns de IDE.
 
-O Parquet em `data/` permanece no repositório para quem clonar poder correr figuras e notebook sem repor os CSV.
+Os CSV, o XLSX de 2025 e o Parquet em `data/` estão no repositório para quem clonar conseguir reproduzir o carregamento, o notebook e as figuras sem buscar as fontes à parte.
 
 ## Pré-requisitos
 
@@ -53,14 +53,14 @@ pip install -r requirements.txt
 
 ## Fluxo de trabalho típico
 
-1. **Dados brutos (opcional se já tiver o Parquet)**  
-   Coloque na raiz: `investimentos_2021.csv` … `investimentos_2024.csv` e `investimentos-2025.xlsx`. Depois:
+1. **Dados na raiz (opcional se o Parquet já existir)**  
+   Com os arquivos `investimentos_2021.csv` … `2024.csv` e `investimentos-2025.xlsx` no repositório, pode gerar ou atualizar o Parquet com:
 
    ```bash
    python scripts/carregar_investimentos.py
    ```
 
-   Isto cria ou sobrescreve `data/investimentos_2021_2025.parquet`.
+   Isso cria ou sobrescreve `data/investimentos_2021_2025.parquet`.
 
 2. **Figuras do relatório**
 
@@ -87,4 +87,4 @@ pip install -r requirements.txt
 
 ## Licença
 
-Ver ficheiro `LICENSE` na raiz.
+Ver arquivo `LICENSE` na raiz.

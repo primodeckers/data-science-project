@@ -13,10 +13,6 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Dados brutos (grandes; não versionar — ver README)
-investimentos_20*.csv
-investimentos-2025.xlsx
-
 # SO / editores
 .DS_Store
 Thumbs.db

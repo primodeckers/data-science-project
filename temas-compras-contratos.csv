@@ -1,0 +1,937 @@
+Organização;Nome;Descrição;Tags;Quantidade Recursos;Quantidade Reusos;Quantidade Downloads;_eixo;_matches
+Ministério da Gestão e da Inovação em Serviços Públicos;Compras Públicas do Governo Federal;"Dados Abertos do Sistema Integrado de Administração e Serviços Gerais - SIASG e [Compras.gov.br](https://compras.dados.gov.br/docs/home.html e https://dadosabertos.compras.gov.br/swagger-ui/index.html#) contém informações das compras públicas realizadas no sistema SIASG/Compras.gov.br.
+
+__Conceito__
+
+O SIASG é o sistema onde se operacionaliza as compras do Governo Federal. Essa operacionalização se dá em diversos módulos, como o catálogo de materiais e serviços ([CATMAT](http://comprasnet.gov.br/acesso.asp?url=/Livre/Catmat/Conitemmat1.asp) / CATSER), o cadastramento e divulgação da licitação (SIDEC, Divulgação), as intençoes de registros de preços (IRP), o cadastramento dos fornecedores ([SICAF](https://www.gov.br/compras/pt-br/sistemas/conheca-o-compras/sicaf-digital), a realização das licitações ([Compras governamentais](http://gov.br/compras), Sessão Pública, RDC), o resultado das licitações (SISPP, SISRP), os empenhos de pagamentos (SISME) e o registro e [gestão dos contratos](https://www.gov.br/compras/pt-br/sistemas/conheca-o-compras/comprasnet-contratos).
+
+__Por que Dados Abertos de Compras Governamentais?__
+
+A prestação de dados como um serviço governamental traz vantagens para toda a sociedade, incluindo o próprio governo. O Ministério Economia está racionando recursos através da publicação dessas informações na Internet.
+
+A disponibilização dos dados das Compras Governamentais é um compromisso firmado pelo governo brasileiro na Parceria para Governo Aberto (Open Government Partnership - OGP do inglês). O governo está comprometido em promover a transparência dos gastos públicos, fornecer informações de valor agregado à sociedade e promover a pesquisa e inovação tecnológica através da implementação da política brasileira de dados abertos.
+
+Os dados estão disponíveis através de uma [API](http://kit.dados.gov.br/Gloss%C3%A1rio/#api) de Dados Abertos que contempla os princípios [REST](http://pt.wikipedia.org/wiki/REST). Abaixo uma lista dos dados disponíveis por essa API:
+
+•	[Dados dos fornecedores](http://compras.dados.gov.br/docs/lista-metodos-fornecedores.html)
+
+•	[Dados do catálogo de materiais](https://dadosabertos.compras.gov.br/swagger-ui/index.html#)
+
+•	[Dados do catálogo de serviços](https://dadosabertos.compras.gov.br/swagger-ui/index.html#)
+
+•	[Dados de licitações](http://compras.dados.gov.br/docs/lista-metodos-licitacoes.html)
+
+•       [Dados de Pregões](http://compras.dados.gov.br/docs/lista-metodos-pregoes.html)
+
+•	[Dados dos contratos](http://compras.dados.gov.br/docs/lista-metodos-comprasContratos.html)
+
+•	[Dados de compras sem Licitação](http://compras.dados.gov.br/docs/lista-metodos-compraSemLicitacao.html)
+
+•	Dados do Regime Diferenciado de Contratações - RDC
+
+__Políticas Públicas__
+
+Publicação dos dados das compras públicas realizadas no sistema SIASG/Comprasnet.
+
+__Legislação__
+
+Constituição Federal; [Lei nº 14.133/2021](https://www.gov.br/compras/pt-br/nllc); [Lei nº 8.666/1993](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao); Lei Complementar nº 123/2006; Lei nº 12.232/201; Lei nº 12.349/2010; Decreto nº 1.094/1994; Lei nº 12.462/2011; Lei nº 10.520/2002; Decreto nº 9.507/2018; Decreto nº 9.488/2018; Decreto nº 7.581/2011; Decreto nº 8.250/2014; Decreto nº 7.892/2013.
+
+__Veja também__
+
+- Adaptação do Painel de Compras e da API de Dados Abertos 
+https://www.gov.br/compras/pt-br/acesso-a-informacao/comunicados/no-07-2023-adaptacao_painel_de_compras_api_dados_abertos
+
+- Painel de Preços – ferramenta para pesquisa de preços das compras realizadas no sistema SIASG/Comprasnet - http://paineldeprecos.planejamento.gov.br/
+
+- Painel de Compras – ferramenta que apresenta em um só local os principais números das contratações públicas e tem por finalidade oferecer um panorama dos gastos públicos e do comportamento licitatório no âmbito da Administração Pública Federal- http://paineldecompras.economia.gov.br";14133,API,Dados Estratégicos,MP,RDC,SIASG,SICAF,ata,aviso,compras,comprasnet,concorrência,contratos,convite,fornecedores,leilão,licitação,materiais,modalidades,ocorrências,pregão,preços praticados,regime diferenciado de contratações,registro de preços,serviços,sustentável,tomada de preços;42;2;36434;Compras/Contratos/Licitações/Orçamento;ata,catmat,catser,compra,compras,compras.gov,comprasnet,contrat,contrato,contratos,empenh,empenho,fornecedor,licita,licitacao,licitação,pagamento,pregão,rdc,registro de preços,siasg,sicaf
+Ministério da Gestão e da Inovação em Serviços Públicos;Catálogo de Bases de Dados;"O Catálogo de Base de Dados (CBD) consiste em uma base centralizada de informações a respeito de bases de dados custodiadas pela administração pública federal. O CBD permitirá que o governo identifique as bases de dados governamentais, suas características, onde estão e quem são seus curadores.
+O CBD é uma iniciativa criada e mantida pela Secretaria de Governo Digital (SGD), da Secretaria Especial de Desburocratização, Gestão e Governo Digital (SEDGG), do Ministério da Economia (ME).
+O levantamento das bases de dados foi realizado no período de 2021 e 2022, tendo um grande projeto de ampliação e evolução da catalogação para os próximos anos.";Dados,Dados Estratégicos,bases,bases de dados,catalogo;3;0;5451;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Imóveis da União;"Em atendimento à [__Lei nº 12.527, de 2011 - Lei de Acesso à Informação__](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); ao Decreto nº 8.777, de 2016, que institui a Política de Dados Abertos do Governo Federal; e ao [__Plano de Dados Abertos do Ministério da Gestão e Inovação em Serviço Público__](http://www.planejamento.gov.br/servicos/central-de-conteudos/publicacoes/plano-de-dados-abertos-pda), a Secretaria do Patrimônio da União publica, neste espaço, dados sobre os bens imobiliários da União registrados em seus bancos de dados.
+
+A Secretaria do Patrimônio da União possui uma página de [__Transparência Ativa__](https://qlik-publico.paineis.gov.br/extensions/transparencia-ativa/transparencia-ativa.html), que fornece, à sociedade, todas as informações referente aos imóveis em si e sobre os ocupantes de imóveis da União. A separação visa a resguardar informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 2012, que regulamenta a Lei de Acesso à Informação.
+
+Os dados apresentados no recurso ""Consulta Imóveis da União"" são extraídos mensalmente dos seguintes sistemas da SPU: Sistema de Gerenciamento dos Imóveis de Uso Especial (SPIUNET) para os imóveis de Uso Especial e Sistema Integrado de Administração Patrimonial (SIAPA) para imóveis classificados como Dominiais.
+
+Os dados apresentados no recurso ""Consulta Imóveis Funcionais"" são extraídos do Cadastro de Imóveis Funcionais (CIF), sob demanda da Controladoria Geral da União e publicados no Portal da Transparência, no endereço eletrônico https://portaldatransparencia.gov.br/imoveis-funcionais.
+
+O cidadão também poderá ter acesso a outras publicações, referente aos imóveis da União, como Depreciação, Arrecadação e Repasse aos municípios, podendo efetuar a baixa destes dados para consultas.
+
+Veja alguns conceitos importantes:
+
+##Imóveis dominiais:
+
+Trata-se de imóveis da União que não são ocupados pela Administração Pública, mas por terceiros. A ocupação pode ser em caráter precário, como é o caso da Inscrição de Ocupação e da Autorização de Uso, ou por meio de instrumentos de direito real para fins de regularização fundiária, tais como: Aforamentos; Concessões de Direito Real de Uso (CDRU); e Concessão de Uso Especial para fins de Moradia (CUEM). 
+
+##Imóveis de Uso Especial:
+
+São os imóveis que se destinam à execução de serviços administrativos ou à prestação de serviços públicos em geral, tais como prédios de repartições públicas. Um prédio onde esteja instalado um hospital público ou uma escola pública também se enquadram na categoria de bens de uso especial. 
+
+##Imóveis Funcionais: 
+São imóveis cuja destinação é reservada ao uso residencial funcional. Fazem parte do grupo Imóveis de Uso Especial.
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/destinacao-de-imoveis/instrumentos-de-destinacao) para saber mais sobre os instrumentos de destinação patrimonial.
+
+*RIP – Registro Imobiliário Patrimonial*
+É o registro correspondente à utilização, código numérico gerado de acordo com lei de formação estabelecida pela SPU. Conforme informado na lei de formação, é utilizada tanto para o registro de unidades autônomas – matrícula individualizada em cartório, chamada de “RIP imóvel” – como para as utilizações, chamadas de “RIP utilização”. Sua lei de formação é MMMM SSSSS 500 D, onde
+
+    MMMM é o código do Município de localização do Imóvel.
+    SSSSS, sequencial dentro do Município.
+    500: valor fixo para imóveis de Uso Especial.
+    D: DV módulo 11, ciclo 9.
+
+
+A *Conceituação dos imóveis* diz respeito ao tipo de bens da União, conforme definido no art. 20 da Constituição Federal, tais como Terrenos de Marinha, Terrenos de Marginal de Rio, Ilhas, Terras Indígenas, entre outros.
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/bens-da-uniao)
+ para saber mais  sobre bens da União.";Aforamento,Autorização de Uso Sustentável,CDRU,CUEM,Cessão,Concessão de Direito Real de Uso,Concessão de Uso Especial para fins de Moradia,Entrega,Inscrição de ocupação,MGI,SIAPA,SPU,dominiais,imóveis,patrimônio da união,uso especial;3;0;3566;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Cadastro Ambiental Rural - CAR;"Criado pela Lei nº 12.651/2012, no âmbito do Sistema Nacional de Informação sobre Meio Ambiente - SINIMA, e regulamentado pela Instrução Normativa MMA nº 2, de 5 de maio de 2014, o Cadastro Ambiental Rural – CAR é um registro público eletrônico de âmbito nacional, obrigatório para todos os imóveis rurais, com a finalidade de integrar as informações ambientais das propriedades e posses rurais referentes às Áreas de Preservação Permanente - APP, de uso restrito, de Reserva Legal, de remanescentes de florestas e demais formas de vegetação nativa, e das áreas consolidadas, compondo base de dados para controle, monitoramento, planejamento ambiental e econômico e combate ao desmatamento.
+
+A inscrição no CAR é o primeiro passo para obtenção da regularidade ambiental do imóvel, e contempla: dados do proprietário ou possuidor rural; dados sobre os documentos de comprovação de propriedade e ou posse; e informações georreferenciadas do perímetro do imóvel, das áreas de interesse social e das áreas de utilidade pública, com a informação da localização dos remanescentes de vegetação nativa, das Áreas de Preservação Permanente, das áreas de Uso Restrito, das áreas consolidadas e das Reservas Legais.
+
+Para um melhor desempenho e visualização dos metadados, é recomendado que o arquivo seja aberto no Excel, e não diretamente como CSV. Além disso, informações e dados do CAR também podem ser acessados e baixados no portal de consulta pública do CAR, disponível em: https://consultapublica.car.gov.br/.";Cadastro,Código Florestal,Meio Ambiente;10;1;3225;Compras/Contratos/Licitações/Orçamento;ata,empenh,empenho
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Gratificações;Contempla os dados cadastrais dos servidores públicos efetivos ativos do Poder Executivo Federal Civil que recebem Gratificação Temporária de Atividade em Escola de Governo – GAEG, Gratificação de Incremento à Atividade de Administração do Patrimônio da União – GIAPU, Gratificação Temporária do Sistema de Administração dos Recursos de Tecnologia da Informação – GSISP ou Gratificação Temporária das Unidades dos Sistemas Estruturadores da Administração Pública Federal - GSISTE. Arquivo em formato CSV. O presente conjunto de dados substitui, a partir de 08/2021, o conjunto de dados Gestão de Pessoas (Executivo Federal) - Gratificação Temporária das Unidades dos Sistemas Estruturadores da Administração Pública Federal (GSISTE). Para obter informações acerca das gratificações GSISTE e GIAPU em períodos anteriores a 08/2021, acesse https://dados.gov.br/dataset/gastos-pessoal-gsiste.;GAEG,GIAPU,GSISP,GSISTE,Poder Executivo,gratificações,servidor público;54;0;2390;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Pensionistas;As informações disponibilizadas referem-se ao pagamento (rendimento bruto) recebido por pensionistas de servidores instituidores de pensão, constantes no Sistema Integrado de Administração de Pessoal (Siape).Cabe ressaltar que o Ministério da Economia é responsável pelas informações dos servidores instituidores de pensão e pensionistas do Poder Executivo Federal, não incluindo dados dos poderes Judiciário e Legislativo. Também não constam nos arquivos, dados relativos aos servidores do Banco Central do Brasil (1), Ministério da Defesa (2) (com exceção de militares de ex-territórios ou que assumiram cargos civis no Poder Executivo Federal) e Governo do Distrito Federal (3) (Fundo Constitucional), responsáveis pela publicação dos seus dados em portais próprios. Em relação à Agência Brasileira de Inteligência (Abin), os dados funcionais de pessoal são protegidos pela legislação vigente Lei nº 9883 (4) e Portaria Conjunta n° 5, de 05/08/2015/MPOG (5).;pensionista,pensionistas,poder executivo;99;0;2287;Compras/Contratos/Licitações/Orçamento;pagamento
+Ministério da Gestão e da Inovação em Serviços Públicos;Compras.gov.br Contratos;"O [Compras.gov.br Contratos](https://www.gov.br/compras/pt-br/sistemas/comprasnet-contratos) é a plataforma para gestão de contratações públicas que é disponibilizada pelo governo federal e pode ser utilizada por órgãos e entidades da **administração pública federal** direta, autárquica e fundacional, bem como as empresas estatais; e demais órgãos e entidades de **outros poderes** ou das **esferas estadual e municipal**.
+
+Apresentamos os **valores e saldos de empenhos emitidos no SIAFI** e originados do sistema Contratos.gov.br. 
+
+Após a análise das informações e a revisão da metodologia, constatamos que **nem todos os empenhos disponibilizados estão vinculados aos seus respectivos contratos**. Isso ocorre porque a vinculação depende da **ação manual dos responsáveis pela gestão contratual** do órgão contratante.
+
+Informamos que estão sendo adotadas medidas para **garantir e aprimorar maior precisão das informações orçamentárias** vinculadas às compras e aos contratos.
+
+Este conjunto de dados contém arquivos **CSVs** extraídos do Compras Contratos. A organização dos arquivos disponibilizados possibilita o download de todos os dados de forma **massiva** a partir dos arquivos anuais. Complementarmente também são disponibilizados arquivos **mensais** e **diários** contendo apenas os registros novos ou alterados. Estão disponíveis dados das seguintes tabelas:
+
+* Contratos
+* Empenhos
+* Contratos_Empenhos
+* Históricos
+* Cronogramas
+* Garantias
+* Itens
+* Prepostos
+* Responsáveis
+* Despesas Acessórias
+* Faturas
+* Terceirizados
+
+Os arquivos possuem registros a partir de Janeiro de 2021, que foi quando o Compras Contratos entrou em operação.
+
+Também é possível navegar pelos arquivos acessando diretamente o repositório em [https://repositorio.dados.gov.br/seges/comprasnet_contratos/](https://repositorio.dados.gov.br/seges/comprasnet_contratos/).
+
+## Histórico de Alterações
+
+**Maio/2024**
+
+Foi incluída a tabela de relacionamento Contratos_Empenhos.
+
+Houve também atualização do dicionário de dados.
+
+**Outubro/2022**
+
+Foi alterado o layout da tabela de **empenhos**, inserindo as colunas:
+
+* unidade
+* unidade_nome
+* gestao
+* data_emissao
+* informacao_complementar
+* sistema_origem
+
+E alteradas as colunas:
+
+* credor -> cpf_cnpj_credor e cpf_cnpj_credor
+* naturezadespesa -> naturezadespesa e naturezadespesa_descricao
+* planointerno -> planointerno e planointerno_descricao
+* empenhado -> valor_empenhado
+* aliquidar -> valor_aliquidar
+* liquidado -> valor_liquidado
+* pago -> valor_pago
+* rpinscrito -> valor_rpinscrito
+* rpaliquidar -> valor_rpaliquidar
+* rpliquidado -> valor_rpaliquidado
+* rppago -> valor_rppago
+
+Além disso, agora também são retornados os empenhos que não possuem nenhum contrato associado.";Compras Públicas,compras,compras governamentais,comprasnet;40;0;2069;Compras/Contratos/Licitações/Orçamento;ata,compra,compras,compras.gov,comprasnet,contrat,contrato,contratos,despesa,empenh,empenho,liquid,liquidado,orçament,pago,siafi
+Ministério da Gestão e da Inovação em Serviços Públicos;Viagens a Serviço do Governo Federal (SCDP);"Dados das viagens a serviço do Governo Federal oriundos do Sistema de Concessão de Diárias e Passagens (SCDP).
+
+O SCDP é a solução responsável pela gestão dos processos de afastamento a serviço do Governo Federal. Permite a elaboração, o registro, o controle, o acompanhamento e a gestão dos processos de concessão de diárias e passagens.
+
+O Sistema possibilita, ainda, o compartilhamento de uma base de dados única, administrada pelo Gestor Central no Ministério da Economia (ME) e pelos Gestores Setoriais de cada instituição usuária, o que permite um maior controle físico e financeiro das diárias e passagens emitidas no âmbito da Administração Pública Federal.
+
+#Quais dados estão disponíveis?
+
+O conjunto de dados disponibilizado contempla informações sobre bilhetes aéreos emitidos ou alterados na modalidade Compra Direta, com início de publicação em 01/11/2017, com dados referentes ao mês de outubro de 2017. Esses dados tem periodicidade de publicação mensal, em geral, no primeiro dia útil do mês subsequente.
+
+Para informações atualizadas, utilize o acesso ao Painel de Viagens, por meio do endereço: http://paineldeviagens.economia.gov.br.
+
+#Como obter mais informações sobre o SCDP:
+
+Para maiores informações ou solicitações relacionadas ao SCDP, por favor utilize um dos seguintes canais:
+
+* portaldeservicos.economia.gov.br.
+* 0800-978-9001 de segunda-feira a sexta-feira, das 8h às 18h.
+* www2.scdp.gov.br, seção Documentações de Apoio.";Dados Estratégicos,afastamento a serviço,compra direta,diária,diárias,mp,passagem,passagens,scdp,viagem,viagem a serviço,viagens;93;0;1574;Compras/Contratos/Licitações/Orçamento;compra,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Transferências e Parcerias da União;"#Escopo
+A Plataforma TransfereGov disponibiliza acesso livre às informações de Transferências da União com o objetivo de facilitar o acesso aos dados do sistema para a sociedade e a outras esferas de Governo.
+O usuário poderá baixar as principais informações dos instrumentos para realizar análises e cruzamentos que desejar a partir desses dados. 
+
+O conjunto de dados disponibilizado contempla as seguintes informações: data_carga_siconv, Programas Disponibilizados, Programas/Propostas, Propostas Cadastradas, Convênios, Emendas Parlamentares, Plano de Aplicação Detalhado, Empenhos Realizados, Desembolsos (Ordem Bancária), Pagamentos a Favorecidos, OBTV para Convenente, Histórico Situação Propostas/Convênios, Ingresso de Contrapartida, Termo Aditivo, Prorroga de Ofício, Meta (Cronograma Físico), Etapa (Cronograma Físico), Consórcios, Empenhos Desembolso, Proponentes, Desbloqueio Contrato de Repasse, Cronograma de Desembolso e Justificativas da Proposta.
+
+Se optar por fazer o download desses arquivos por assunto e verificar a data de atualização dos dados, acesse o link: __http://repositorio.dados.gov.br/seges/detru/__
+
+
+#Conceito
+As Transferências da União são recursos financeiros repassados pelo Governo Federal para Estados, Municípios e Organizações da Sociedade Civil, em decorrência da celebração de convênios, contratos de repasse ou outros instrumentos similares, cuja finalidade é a realização de obras e/ou serviços de interesse comum. 
+
+#Política Pública
+Objeto cuja execução é atribuída ao convenente mediante disponibilização orçamentária e financeira do concedente para estruturação de serviços públicos de interesse local, a exemplo dos de transporte coletivo, saneamento básico, bem como obras de habitação de interesse social e de infraestrutura.
+
+#Legislação
+Lei 8.666, de 21 de junho de 1993, Lei nº 13.019, de 31 de julho de 2014, Lei 9.790, de 23 de março de 1999, Decreto nº 3.100, de 30 de julho de 1999, Decreto nº 6.170, de 25 de julho de 2007, Decreto nº 10.035, de 1º de outubro de 2019, Decreto nº 10.024, de 20 de setembro de 2019, Portaria Interministerial nº 127, de 29 de maio de 2008, Portaria Interministerial Nº 507, de 24 de novembro de 2011. Portaria Interministerial Nº 424, de 30 de dezembro de 2016, Portaria Interministerial nº 13.395, de 5 de junho de 2020, Portaria ME nº 66, de 31 de março de 2007, Portaria ME nº 67, de 31 de março de 2007, Portaria SEGES/ME Nº 25.405, de 23 de dezembro de 2020, Portaria Nº 33, de 22 de janeiro de 2020, Portaria STN Nº 749, de 17 de março de 2021. 
+
+#Veja Também
+- Painel Transferências Abertas: Disponibiliza acesso às informações das Transferências da União de forma intuitiva, flexível e rápida, para apoiar o processo de tomada de decisão,  __https://clusterqap2.economia.gov.br/extensions/home/home.html__
+
+- Repositório de Dados: Acesso livre com atualização diária dos dados do sistema da Plataforma TransfereGov,  __http://repositorio.dados.gov.br/seges/detru/__
+
+#Central de Atendimento
+Para obter os contatos relacionados à Plataforma TransfereGov e ter mais informações sobre as Transferências da União acesse __https://www.gov.br/transferegov/pt-br/fale-conosco/centralatendimento__";Administração Pública Federal,MGI,MP,Ministério da Economia,Ministério do Planejamento,ONG,OSC,Plataforma Mais Brasil,TransfereGov,Transferências voluntárias da União,contratos de repasse,convênios,organizações da sociedade civil,siconv;41;0;1564;Compras/Contratos/Licitações/Orçamento;ata,contrat,contrato,contratos,convênio,empenh,empenho,orçament,pagamento,siconv
+Ministério da Gestão e da Inovação em Serviços Públicos;Gov360;"O Gov360 traz o Raio-X da Administração Pública Federal e é uma
+ferramenta gerencial, desenvolvida pela Secretaria de Gestão e
+Inovação do Ministério da Gestão e da Inovação em Serviços Públicos
+(SEGES/MGI). Tem o objetivo de fomentar o acompanhamento da gestão
+pública, do seu aprimoramento por meio do uso de dados e informações,
+além de impulsionar o fortalecimento dos Sistemas Estruturadores do
+Governo Federal.
+
+O Painel consolida um conjunto de dados sobre:
+
+* Orçamento Primário;
+* Pessoal (composição e as características da força de trabalho);
+* Estrutura de Cargos e Funções;
+* Patrimônio da União (dados de imóveis da união);
+* Custeio Administrativo; e
+* Soluções de gestão.
+
+Além de poder visualizar os dados pelo painel, é possível também
+baixar e utilizar, na forma de dados abertos, as informações nele
+mostradas. Isso possibilita a realização de outros tipos de análise
+não previstas nas visualizações do painel, além do cruzamento com
+outras fontes de dados.
+
+## Organização das t";Alocacação de Servidores,Bens da União,Cargo e Funções,Cargos alocados,Custeio Administrativo,Custos de Pessoal,Dados de Pessoal do Executivo Federal,Despesa com Pessoal,Força de Trabalho,Gov360,Modernização Administrativa,Orçamento Primário,Pessoal,Servidores,Soluções de Modernização,cargos ocupados,frictionless-data,patrimônio da união;76;0;1549;Compras/Contratos/Licitações/Orçamento;ata,despesa,orçament
+Ministério da Gestão e da Inovação em Serviços Públicos;Domínios gov.br;"Informações sobre os domínios da categoria ""gov.br"", registrados no Registro.br, atualizadas **diariamente** pela Secretaria de Governo Digital (SGD) do Ministério da Gestão e da Inovação em Serviços Públicos.
+
+As informações disponibilizadas nesta página são atualizadas de forma diária, garantindo que o arquivo acessível por meio do link na seção de **Recursos** contenha sempre a versão mais recente dos dados. Essa prática visa assegurar que os usuários tenham acesso contínuo às informações mais atualizadas sobre os domínios públicos registrados sob a categoria ""gov.br"".
+
+Para atender demandas específicas por versões históricas ou arquivos correspondentes a datas anteriores, solicitações devem ser encaminhadas diretamente à área técnica responsável. É necessário especificar a data exata do arquivo desejado no pedido, que pode ser enviado para o e-mail de contato técnico disponibilizado.";Dados Estratégicos,dns,domínios,governo eletrônico,localização internet;2;0;910;Compras/Contratos/Licitações/Orçamento;ata,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;SICONV;O Sistema de Gestão de Convênios e Contratos de Repasse (SICONV) é a iniciativa do Governo Federal responsável por todo o ciclo de vida dos convênios, contratos de repasse e termos de parceria, no qual são registrados os atos, desde a formalização da proposta até a prestação de contas final.;convenios,parceria,repasses,termos de cooperação,transferencias da uniao,transferência;1;0;839;Compras/Contratos/Licitações/Orçamento;contrat,contrato,contratos,convenio,convênio,siconv
+Ministério da Gestão e da Inovação em Serviços Públicos;Informações dos serviços públicos prestados pelo Governo Federal;"Publicação de informações dos serviços públicos prestados pelo Governo Federal no portal único __[GOV.BR](https://gov.br)__.
+
+Há nos recursos deste _dataset_ operação de consulta à todos os serviços públicos federais.
+
+__* Importante:__ A consulta disponibilizada aos serviços públicos é __atualizada diariamente__";Cidadão,Dados Estratégicos,Decreto 10332-2020,Decreto 8936-2016,EGD,Estratégia de Governo Digital,Serviços públicos,digitalização de serviços,governo federal,serviços digitais;1;0;734;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;SIAPE;O Sistema Integrado de Administração de Recursos Humanos (SIAPE) tem a missão de integrar todas as plataformas de gestão da folha de pessoal dos servidores públicos. ;aposentadoria,aposentados,ativos,folha de pagamento,pagamento,pensão,recursos humanos,servidor,servidores,siape,siapenet;1;1;716;Compras/Contratos/Licitações/Orçamento;ata,pagamento
+Ministério da Gestão e da Inovação em Serviços Públicos;Aposentados;"As informações disponíveis nesta consulta referem-se aos servidores aposentados do Poder Executivo Federal, não incluindo portanto, dados sobre servidores ativos, pensionistas ou instituidores de pensão, nem mesmo sobre servidores dos poderes Judiciário e Legislativo. 
+Os dados sobre servidores civis têm origem no Sistema Integrado de Administração de Recursos Humanos (Siape) e reúnem informações dos órgãos integrantes do Sistema de Pessoal Civil da Administração Federal (Sipec), e não incluem dados relativos aos servidores do Banco Central do Brasil (Bacen). 
+Os arquivos são os disponibilizados pelo Portal de dados abertos, e portanto, não são da fonte primária. Estão disponíveis informações, em formato aberto, sobre nome do aposentado, cpf (desconfigurado) órgão de origem, cargo emprego, regime jurídico, fundamentação da aposentadoria  dos servidores públicos do executivo federal. 
+Os arquivos abaixo apresentam: 
+1) Servidores: NOME; CPF(descaracterizado); MATRICULA; SITUAÇÃO DE VINCULO; UPAG(unidade pagadora); ÓRGÃO DE ORIGEM; DESCRIÇÃO-CARGO-EMPREGO;  CLASSE-CARGO; PADRÃO-CARGO; REFERENCIA-CARGO; NÍVEL_CARGO ; REGIME JURÍDICO; FUNDAMENTAÇÃO DA APOSENTADORIA; DATA DA OCORRÊNCIA; DATA DA PUBLICAÇÃO DOU; DATA DE APOSENTADORIA; INGRESSO NO SERVIÇO PÚBLICO; DOCUMENTO LEGAL; NÚMERO DO DOCUMENTO LEGAL E DATA DE PUBLICAÇÃO.";Ações  do Governo Federal;1;0;658;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Adesão ao Conecta Gov.br - programa de interoperabilidade do Poder Executivo Federal;"O Conecta GOV.BR é um programa que promove a troca automática e segura de informações entre os sistemas para que o cidadão não tenha que reapresentar informações que o governo já possua. Isso é um direito do cidadão garantido pela Lei 13.726/2018 - Simplificação e pela Lei 14.129/2021 - Governo Digital. 
+
+O Conecta é uma iniciativa da Secretaria de Governo Digital para os órgãos e entidades do Poder Executivo Federal, que tem como principais objetivos desonerar o cidadão, simplificar o serviço público, reduzir fraude e trazer mais segurança e economia para todo o processo.
+
+Para promover a interoperabilidade, o órgão precisa realizar adesão ao Conecta GOV.BR para ter acesso aos dados. Todavia, para ter acesso aos dados, será necessário que o órgão aderente tenha autorização do órgão gestor dos dados e que a solicitação esteja aderente à LGPD.";conecta gov.br,economicidade,infraestrutura nacional de dados,integração de dados,interoperabilidade;10;0;548;Compras/Contratos/Licitações/Orçamento;licita,licitação
+Ministério da Gestão e da Inovação em Serviços Públicos;Metadados para API Consulta SICAR CPF/CNPJ - ConectaGov;"Metadados para os Atributos Listados Abaixo da API de Consulta de imóvel do CAR por meio de CPF ou CNPJ e Informações de Acesso para essa API:
+
+Parâmetros de Entrada:
+cpfCnpj.
+
+Parâmetros de Saída
+identificadorImovel;	
+codigoImovel;
+indicadorAtivo.	
+
+Conforme detalhes em: https://www.gov.br/conecta/catalogo/apis/consulta-sicar-cpf-cnpj";Cadastro,Código Florestal,Meio Ambiente;1;0;483;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Gratificação Temporária das Unidades dos Sistemas Estruturadores da Administração Pública Federal (GSISTE);"Contempla os dados cadastrais de servidores públicos efetivos ativos do Poder Executivo Federal Civil que recebem Gratificação Temporária das Unidades dos Sistemas Estruturadores da Administração Pública Federal (Gsiste), como nome, CPF, cargo, órgão. O arquivo disponibilizado reúne informações dos órgãos integrantes do Sistema de Pessoal Civil da Administração Federal (Sipec) e não inclui dados sobre servidores do Banco Central do Brasil.
+
+O presente conjunto de dados foi descontinuado a partir de 08/2021, sendo substituído pelo conjunto de dados Gestão de Pessoas (Executivo Federal) – Gratificações. Para informações a partir de 08/2021, acesse https://dados.gov.br/dataset/gestao-de-pessoas-executivo-federal-gratificacoes
+
+
+__Conceito__
+
+A Gratificação Temporária das Unidades dos Sistemas Estruturadores da Administração Pública Federal - GSISTE, instituída pela Lei no 11.356, de 19 de outubro de 2006, é concedida aos titulares de cargos de provimento efetivo, em efetivo exercício no órgão central e nos órgãos setoriais, seccionais e correlatos dos seguintes Sistemas estruturados a partir do disposto no Decreto-Lei no 200, de 25 de fevereiro de 1967, enquanto permanecerem nesta condição: I - de Planejamento e de Orçamento Federal; II - de Administração Financeira Federal; III - de Contabilidade Federal; IV - de Controle Interno do Poder Executivo Federal; V - de Informações Organizacionais do Governo Federal - SIORG; VI - de Gestão de Documentos de Arquivo - SIGA; VII - de Pessoal Civil da Administração Federal - SIPEC; VIII - de Administração dos Recursos de Informação e Informática - SISP; e IX - de Serviços Gerais - SISG.
+
+__Política Pública__
+
+Política pública de aperfeiçoamento contínuo dos processos de gestão de pessoas no âmbito da administração pública federal.
+
+__Outras informações__
+
+https://www.gov.br/servidor/pt-br/observatorio-de-pessoal-govbr
+
+http://painel.pep.planejamento.gov.br
+";Ativo,GSISTE,Gratificação,Poder Executivo,servidor público;59;0;466;Compras/Contratos/Licitações/Orçamento;ata,orçament
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Auxílio Pré-escolar;"Contempla dados cadastrais e financeiros dos servidores públicos ativos do Poder Executivo Federal Civil que recebem Auxílio Pré-Escolar. Arquivo em formato CSV.
+O conjunto de dados não contempla os servidores da Agência Brasileira de Inteligência, Banco Central do Brasil, Defensoria Pública da União, Departamento de Polícia Federal, Departamento de Polícia Rodoviária Federal e os servidores da Carreira de Execução Penal. O Auxílio Pré-Escolar é um benefício concedido aos servidores ativos para auxiliar nas despesas pré-escolares de filhos ou dependentes na faixa etária compreendida do nascimento aos 06 (seis) anos de idade.";Poder Executivo Federal,Servidor Público,Servidor Público Federal,auxílio,auxílio pré-escolar;45;0;446;Compras/Contratos/Licitações/Orçamento;despesa
+Ministério da Gestão e da Inovação em Serviços Públicos;Consumo de Energia Órgãos Públicos;"Dados de consumo de energia elétrica em órgãos públicos da Administração Direta, Autárquica e Fundacional do Poder Executivo Federal.
+Conforme preconiza o [Decreto 10.779/2021](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10779.htm), todos os órgãos devem publicar na internet o consumo de energia elétrica em comparação com o total consumido no período de 2018 e 2019. A Secretaria de Gestão do Ministério da Economia, por meio da [PORTARIA SEGES/ME Nº 14.584](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-seges-me-no-14-584-de-13-de-dezembro-de-2021), definiu que os órgãos deveriam enviar para a SEGES estes dados. 
+
+Durante 08 meses os dados foram coletados e agora são disponibilizados para a sociedade, aumentando assim a transparência sobre dados de consumo de energia.
+
+Como o escopo do Decreto foi limitado aos 08 meses que nele constam, este conjunto de dados não será atualizado periodicamente, sendo estático e alterado apenas quando os órgãos enviarem retificações.";economia de energia,frictionless-data,transparencia;4;0;400;Compras/Contratos/Licitações/Orçamento;ata,compra,compras
+Ministério da Gestão e da Inovação em Serviços Públicos;Contratos Vigentes;Base de dados com execução de contratos vigentes de compra e prestação de serviço do Arquivo Nacional.;CONTRATOS;11;0;387;Compras/Contratos/Licitações/Orçamento;compra,contrat,contrato,contratos
+Ministério da Gestão e da Inovação em Serviços Públicos;Sistema de Transportes de Servidores Públicos - TaxiGov;"__Atenção__: Uma versão mais atualizada está disponível no [link](https://dados.gov.br/dados/conjuntos-dados/sistema-de-transportes-de-servidores-publicos---taxigov-v2)
+
+(Esta versão será descontinuada em 02/2024)
+Corridas de servidores do poder executivo da Administração Pública Federal através do programa Taxigov.
+
+Os dados estão disponíveis em 2 recursos:
+
+1. Corridas individuais anonimizadas, de forma granular
+2. Quantidades de corridas por solicitante e por passageiro, agrupadas por mês
+
+__Conceito__ 
+
+Serviço de transporte de servidores e colaboradores da Administração Pública Federal em deslocamentos a trabalho com o uso de táxis, que começou a ser implementado em março de 2017, em Brasília. A partir de 2019, o projeto se expandiu para outras localidades do Brasil.
+
+O objetivo é melhorar a oferta de serviços de transporte administrativo ao servidor, com economia, transparência de gastos públicos e eficiência, através do uso de tecnologia.
+
+__Instrução Normativa__
+
+O funcionamento do Taxigov é regido pela **[Instrução Normativa 10/2018](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/52001726/do1-2018-11-27-instrucao-normativa-n-10-de-23-de-novembro-de-2018-52001279)**.
+
+Site oficial do taxigov: https://www.gov.br/economia/pt-br/assuntos/gestao/central-de-compras/taxigov
+
+__Atualização__
+
+* Para as corridas individualizadas, são gerados arquivos mensais. O arquivo do mês atual é atualizado diariamente, com dados do dia anterior (D-1).
+* Para as quantidades agregadas por pessoa por mês, o arquivo é atualizado diariamente, com dados do dia anterior (D-1).
+
+Para abrir arquivos CSV pelo Excel, sugerimos seguir a documentação da Microsoft: https://support.microsoft.com/pt-br/office/importar-ou-exportar-arquivos-de-texto-txt-ou-csv-5250ac4c-663c-47ce-937b-339e391393ba#ID0EBBN=Newer_versions
+
+Outros processadores de planilha também são capazes de abrir arquivos CSV normalmente (exemplos: OpenOffice, LibreOffice, etc.).";corridas do taxigov,despesa,serviço de taxi,taxi,taxigov,terceirização,transporte;62;0;378;Compras/Contratos/Licitações/Orçamento;compra,compras,despesa,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Governo Digital - Catálogo de conjuntos de dados que integram o dados.gov.br;"Conjuntos de dados catalogados no Portal Brasileiro de Dados Abertos. Contém, ainda, informações sobre todos os órgãos nele cadastrados.
+
+### Conceito
+
+Agrupamento de informações com os nomes dos órgãos inseridos no portal.
+
+### Política Pública
+
+Fortalecimento da política de dados abertos no executivo federal.
+
+### Legislação
+
+Decreto 8777/2016.
+
+### Veja também
+
+http://wiki.dados.gov.br/Politica-de-Dados-Abertos.ashx
+
+### Outras informações
+
+Consulte o [manual da API do CKAN](https://docs.ckan.org/en/2.6/api/index.html) para saber os parâmetros de consulta e campos de retorno.";conjuntos de dados,dados,órgãos;2;0;359;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Auxílio Natalidade;"Contempla dados cadastrais e financeiros dos servidores públicos ativos do Poder Executivo Federal Civil que recebem Auxílio Natalidade.
+O conjunto de dados não contempla os servidores da Agência Brasileira de Inteligência, Banco Central do Brasil, Defensoria Pública da União, Departamento de Polícia Federal, Departamento de Polícia Rodoviária Federal e os servidores da Carreira de Execução Penal. O Auxílio Natalidade é um benefício devido à servidora por motivo de nascimento de filho, inclusive natimorto, em quantia equivalente ao menor vencimento do serviço público federal vigente na data do nascimento, sendo acrescido de 50% (cinquenta por cento), por nascituro, na hipótese de parto múltiplo. O auxílio natalidade é devido ao cônjuge ou companheiro (servidor público federal), quando a genitora não for ocupante de cargo efetivo regido pela Lei nº 8.112, de 1990. O servidor aposentado possui direito ao auxílio-natalidade.";Poder Executivo Federal,auxílio,natalidade,servidor público;46;0;357;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Sistema de Transportes de Servidores Públicos - TaxiGov v2;"Corridas de servidores do poder executivo da Administração Pública Federal através do programa Taxigov dos últimos 7 dias (Versão 2).
+
+Os dados estão disponíveis em 2 recursos:
+
+1. Corridas individuais anonimizadas, de forma granular
+2. Quantidades de corridas por solicitante e por passageiro, agrupadas por ano
+
+__Conceito__ 
+
+Serviço de transporte de servidores e colaboradores da Administração Pública Federal em deslocamentos a trabalho com o uso de táxis, que começou a ser implementado em março de 2017, em Brasília. A partir de 2019, o projeto se expandiu para outras localidades do Brasil.
+
+O objetivo é melhorar a oferta de serviços de transporte administrativo ao servidor, com economia, transparência de gastos públicos e eficiência, através do uso de tecnologia.
+
+__Instrução Normativa__
+
+O funcionamento do Taxigov é regido pela **[Instrução Normativa 10/2018](https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/52001726/do1-2018-11-27-instrucao-normativa-n-10-de-23-de-novembro-de-2018-52001279)**.
+
+Site oficial do taxigov: https://www.gov.br/economia/pt-br/assuntos/gestao/central-de-compras/taxigov
+
+__Atualização__
+
+* Para as corridas individualizadas, são gerados arquivos anuais. O arquivo do ano atual é atualizado diariamente, com dados do dia anterior (D-1).
+* Para as quantidades agregadas por pessoa por mês, o arquivo é atualizado diariamente, com dados do dia anterior (D-1).
+
+Para abrir arquivos CSV pelo Excel, sugerimos seguir a documentação da Microsoft: 
+[link](https://support.microsoft.com/pt-br/office/importar-ou-exportar-arquivos-de-texto-txt-ou-csv-5250ac4c-663c-47ce-937b-339e391393ba#ID0EBBN=Newer_versions)
+
+Outros processadores de planilha também são capazes de abrir arquivos CSV normalmente (exemplos: OpenOffice, LibreOffice, etc.).";corridas do taxigov,despesa,serviço de taxi,taxi,taxigov,terceirização,transporte;14;0;316;Compras/Contratos/Licitações/Orçamento;compra,compras,despesa,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Auxílio-Transporte;"Contempla dados cadastrais e financeiros dos servidores públicos ativos do Poder Executivo Federal Civil que recebem Auxílio Transporte. Arquivo em formato CSV.
+O conjunto de dados não contempla os servidores da Agência Brasileira de Inteligência, Banco Central do Brasil, Defensoria Pública da União, Departamento de Polícia Federal, Departamento de Polícia Rodoviária Federal e os servidores da Carreira de Execução Penal. O auxílio-transporte, pago pela União, em pecúnia, possui natureza jurídica indenizatória, destinado ao custeio parcial das despesas realizadas com transporte coletivo municipal, intermunicipal ou interestadual pelo servidor ou empregado público da Administração Pública Federal direta, suas autarquias e fundações, nos deslocamentos de suas residências para os locais de trabalho e vice-versa.";Poder Executivo Federal,auxílio,auxílio-transporte;41;0;314;Compras/Contratos/Licitações/Orçamento;despesa,pago
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Orçamento de Investimento das Empresas Estatais Federais Não Dependentes;"Receita e Despesa do Orçamento de Investimento (OI) das Empresas Estatais Federais Não Dependentes.
+
+__Conceito__
+
+Empresa Estatal Federal Não Dependente é a empresa estatal que não recebe do ente controlador (União) recursos financeiros para pagamento de despesas com pessoal ou de custeio em geral ou de capital, excluídos, no último caso, aqueles provenientes de aumento de participação acionária.
+
+__Legislação__
+
+A publicação do Orçamento de Investimento das Empresas Estatais Federais Não Dependentes subordina-se ao §3º do art. 165 da Constituição Federal.
+
+__Veja Também__
+
+Outras informações acerca do assunto podem ser encontradas no site Siga Brasil, dentro do Painel Especialista, na aba Estatais ou pelo link
+
+ https://www9.senado.leg.br/QvAJAXZfc/opendoc.htm?document=Senado%2FSigaBrasilPainelEspecialista.qvw&host=QVS%40www9&anonymous=true
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal,Orçamento de Investimento;1;0;296;Compras/Contratos/Licitações/Orçamento;ata,despesa,orçament,pagamento,receita
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Boletim das Estatais;"O Boletim das Empresas Estatais Federais traz informações sobre as empresas estatais federais, as quais a União detém, direta ou  indiretamente, a maioria do capital social com  direito a voto, e sociedades de economia mista e suas subsidiárias. Reúne informações e dados sobre o orçamento, investimentos e aportes da União; dados econômico-financeiros; e política de pessoal e previdência, como a evolução do quadro de pessoal e despesas.
+
+O Boletim das Estatais é uma publicação trimestral da Secretaria de Coordenação e Governança das Empresas Estatais (Sest) e pode ser acessado neste endereço eletrônico:
+
+https://www.gov.br/gestao/pt-br/central-de-conteudo/publicacoes/boletins/boletim-das-empresas-estatais-federais
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal;1;0;288;Compras/Contratos/Licitações/Orçamento;ata,despesa,orçament
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Identificação das Empresas Estatais;"Informações Cadastrais das Empresas Estatais Federais.
+
+__Conceito__
+
+Empresa Estatal Federal é uma empresa criada por meio de lei, que pertence à União. Geralmente, empresas estatais podem ser empresas públicas, com capital 100% público, ou sociedades de economia mista, cujas ações com direito a voto pertençam em sua maioria à União.
+
+__Legislação__
+
+No Brasil, esse tipo de empresa é regulamentado pela Lei n° 13.303, de 2016 (Lei das Estatais).
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal;1;0;288;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Painel Estatístico Pessoal – PEP;"Com o objetivo de melhorar a gestão dos recursos públicos, reduzir o tempo para o acesso às informações e disponibilizar os dados de forma moderna, simples e transparente, a Secretaria de Gestão de Pessoas do [Ministério do Planejamento](http://www.planejamento.gov.br/) oferece o [Painel Estatístico Pessoal – PEP](https://pep.planejamento.gov.br), que concentra as informações estatísticas de pessoal do Poder Executivo Federal a partir de janeiro de 2017. 
+
+A iniciativa apoia os gestores públicos, cidadãos e imprensa na realização de análise de dados de Despesas de Pessoal, Servidores, Remunerações, Ingressos por Concurso ou Processo Seletivo, Cargos e Funções e Aposentadorias.
+
+O [PEP](https://www.gov.br/economia/pt-br/assuntos/planejamento/servidores/painel-estatistico-de-pessoal) substitui o [Boletim Estatístico de Pessoal](https://www.gov.br/economia/pt-br/assuntos/planejamento/gestao-publica/arquivos-e-publicacoes/bep) e seus dados são atualizados mensalmente.
+
+Fonte: [PEP](https://www.gov.br/economia/pt-br/assuntos/planejamento/servidores/painel-estatistico-de-pessoal)";Aposentadorias,Cargos,Função,Remuneração,Servidores;1;0;275;Compras/Contratos/Licitações/Orçamento;despesa
+Ministério da Gestão e da Inovação em Serviços Públicos;Servidores Públicos Afastados;"Afastamentos e Licenças
+
+O servidor público federal dispõe de modalidades de afastamentos e de licenças que estão previstas por legislação específica e relacionadas pela necessidade do servidor e da administração pública.
+Em relação às modalidades e às suas especificidades, seguem os diferentes tipos de afastamentos e licenças previstos pela legislação brasileira.
+
+Afastamento para Justiça Eleitoral
+Afastamento para Mandato Eletivo
+Afastamento para ser cedido para ter exercício em outro órgão ou entidade dos   Poderes da União, dos Estados, ou do Distrito Federal e dos Municípios
+Afastamento para Estudo ou Missão no Exterior
+Afastamentos para realização de programas de mestrado e doutorado
+Afastamentos para realização de programas de pós-doutorado
+Afastamento de servidor para servir em organismo internacional de que o Brasil participe ou com o qual coopere dar-se-á com perda total da remuneração.
+ 
+Licenças
+Licença à Maternidade
+Licença Incentivada sem Remuneração
+Licença para Atividade Política
+Licença para Capacitação
+Licença para Desempenho de Mandato Classista
+Licença para Tratamento de Saúde
+Licença para Tratar de Interesses Particulares
+Licença Paternidade
+Licença por Acidente em Serviço
+Licença por Motivo de Afastamento do Cônjuge ou Companheiro
+Licença por Motivo de Doença em Pessoa da Família
+Licença-Prêmio por Assiduidade
+
+";Afastados,Publicos,Servidores;1;0;270;Compras/Contratos/Licitações/Orçamento;ata,empenh,empenho
+Ministério da Gestão e da Inovação em Serviços Públicos;Atendimentos realizados na central de atendimento da conta gov.br;"Dados anonimizados dos atendimentos realizados quanto a dúvidas relacionadas à conta gov.br, tais como, identificador, título, origem, categoria, data de criação, time responsável, situação do encerramento, datas de início e solução do atendimento.
+* Importante: O arquivo CSV disponibilizado para download no recurso é atualizado mensalmente.";Atendimento ao cidadão,Decreto 8936-2016,Estratégia de Governo Digital,acesso gov.br,digitalização de serviços,gov.br,serviços públicos;2;0;212;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Governo Digital - Plataforma de Análise de Dados da Administração Pública - GovData;"Conjunto de dados que disponibiliza a API de acesso ao catálogo das bases de dados que integram a plataforma GovData.
+
+###Conceito
+
+O GovData disponibiliza uma infraestrutura de datalake, que permite a hospedagem e o cruzamento de grandes volumes de dados. Nele é possível compartilhar informações entre órgãos, mantendo o sigilo e confidencialidade de dados.
+
+
+###Legislação
+
+Decreto 8789
+
+###Veja também
+
+ck.govdata.gov.br
+
+###Outras informações
+
+http://govdata.gov.br";GovData,api,conjuntos de dados,dados,govdata;1;0;203;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Imóveis da União - Pontos Georreferenciados;"Em atendimento à [__Lei nº 12.527, de 2011 - Lei de Acesso à Informação__](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); ao Decreto nº 8.777, de 2016, que institui a Política de Dados Abertos do Governo Federal; e ao [__Plano de Dados Abertos do Ministério da Gestão e Inovação em Serviços Públicos__](http://www.planejamento.gov.br/servicos/central-de-conteudos/publicacoes/plano-de-dados-abertos-pda), a Secretaria do Patrimônio da União publica, neste espaço, dados sobre os bens imobiliários da União registrados em seus bancos de dados.
+
+A Secretaria do Patrimônio da União possui uma página de [__Transparência Ativa__](https://qlik-publico.paineis.gov.br/extensions/transparencia-ativa/transparencia-ativa.html), que fornece, à sociedade, todas as informações referente aos imóveis em si e sobre os ocupantes de imóveis da União. A separação visa a resguardar informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 2012, que regulamenta a Lei de Acesso à Informação.
+
+O cidadão também poderá ter acesso a outras publicações, referente aos imóveis da União, como Depreciação, Arrecadação e Repasse aos municípios, podendo efetuar a baixa destes dados para consultas.
+
+Veja alguns conceitos importantes:
+
+##Imóveis dominiais:
+
+Trata-se de imóveis da União que não são ocupados pela Administração Pública, mas por terceiros. A ocupação pode ser em caráter precário, como é o caso da Inscrição de Ocupação e da Autorização de Uso, ou por meio de instrumentos de direito real para fins de regularização fundiária, tais como: Aforamentos; Concessões de Direito Real de Uso (CDRU); e Concessão de Uso Especial para fins de Moradia (CUEM). 
+
+##Imóveis de Uso Especial:
+
+São os imóveis que se destinam à execução de serviços administrativos ou à prestação de serviços públicos em geral, tais como prédios de repartições públicas. Um prédio onde esteja instalado um hospital público ou uma escola pública também se enquadram na categoria de bens de uso especial. 
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/destinacao-de-imoveis/instrumentos-de-destinacao) para saber mais sobre os instrumentos de destinação patrimonial.
+
+*RIP – Registro Imobiliário Patrimonial*
+É o registro correspondente à utilização, código numérico gerado de acordo com lei de formação estabelecida pela SPU. Conforme informado na lei de formação, é utilizada tanto para o registro de unidades autônomas – matrícula individualizada em cartório, chamada de “RIP imóvel” – como para as utilizações, chamadas de “RIP utilização”. Sua lei de formação é MMMM SSSSS 500 D, onde
+
+    MMMM é o código do Município de localização do Imóvel.
+    SSSSS, sequencial dentro do Município.
+    500: valor fixo para imóveis de Uso Especial.
+    D: DV módulo 11, ciclo 9.
+
+
+A *Conceituação dos imóveis* diz respeito ao tipo de bens da União, conforme definido no art. 20 da Constituição Federal, tais como Terrenos de Marinha, Terrenos de Marginal de Rio, Ilhas, Terras Indígenas, entre outros.
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/bens-da-uniao)
+ para saber mais  sobre bens da União.";Aforamento,CDRU,CUEM,Geoespacial,Geoinformação,Inscrição de ocupação,Patrimônio Imobiliário,Patrimônio Imóvel,TAUS,imóveis;1;0;195;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Dados de Pessoal do Executivo Federal – Boletim Estatístico de Pessoas - BEP;O BEP é uma publicação com dados sobre a despesa de pessoal da União, o qual foi publicado até janeiro de 2017.  Foi substituído pelo Painel Estatístico de Pessoal-PEP em março com dados à partir de janeiro de 2017, que contém informações estatísticas de pessoal do Poder Executivo Federal.;Governo Federal;1;0;193;Compras/Contratos/Licitações/Orçamento;despesa
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Auxílio-Funeral;"Contempla dados de pagamento do Auxílio Funeral à família ou terceiro que tenha custeado o funeral de servidor falecido em atividade ou aposentado do Poder Executivo Federal Civil. Arquivo em formato CSV.
+Conceito
+O auxílio funeral é um benefício concedido em razão de falecimento do servidor. É concedido à família ou a terceiro que tenha custeado o funeral de servidor falecido em atividade ou aposentado.
+Caso seja custeado por familiares (cônjuge, companheiro(a), pais, filhos), o valor será equivalente a um (01) mês da remuneração ou provento.
+Caso custeado por terceiros, será indenizado o valor custeado, devidamente comprovado, até o limite do valor da última remuneração ou provento do servidor falecido.";Poder Executivo Federal,auxilio,auxilio funeral;28;0;168;Compras/Contratos/Licitações/Orçamento;pagamento
+Ministério da Gestão e da Inovação em Serviços Públicos;Portal Nacional de Contratações Públicas - PNCP;"Os dados do Portal Nacional de Contratações Públicas (PNCP) constituem um conjunto de informações públicas, estruturadas e disponibilizadas de forma gratuita com o objetivo de promover a transparência, o controle social e a reutilização de dados relacionados às contratações realizadas pela Administração Pública no Brasil, em conformidade com a Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos).
+
+Esses dados abrangem todas as etapas do ciclo da contratação pública, em todas as esferas de governo, desde o planejamento até a execução contratual, permitindo que cidadãos, órgãos de controle, pesquisadores, empresas e desenvolvedores acompanhem e analisem como os recursos públicos estão sendo empregados.
+
+Entre as principais informações disponibilizadas em dados abertos do PNCP, destacam-se:
+- Planos de Contratações Anuais (PCA), que demonstram o planejamento das aquisições dos órgãos e entidades;
+- Editais e Avisos de processos de contratação, incluindo licitações e contratações diretas;
+- Atas de Registro de Preços, com seus respectivos itens, fornecedores e valores;
+- Contratos administrativos, contendo dados como objeto, valor, vigência e partes envolvidas;
+- Informações sobre órgãos, entidades, unidades administrativas e fornecedores, identificados por CNPJ e demais atributos públicos.
+
+Os dados são disponibilizados em formato aberto e padronizado por meio de API (Interface de Programação de Aplicações) baseada em serviços REST, com respostas em JSON, o que facilita a integração com sistemas externos, a criação de painéis de monitoramento, estudos estatísticos, auditorias e aplicações de inteligência de dados.
+
+O acesso aos dados abertos do PNCP não exige autenticação, reforçando o princípio da publicidade e permitindo que qualquer interessado consulte, reutilize e cruze as informações, respeitados os limites legais de sigilo e proteção de dados pessoais.
+
+Dessa forma, os dados abertos do PNCP consolidam-se como um instrumento estratégico de governança pública, fortalecendo a transparência, a eficiência administrativa e o controle social sobre as contratações públicas em todas as esferas de governo.";CONTRATOS,Compras governamentais,Contrata mais Brasil,Contratações,Lei 14.133 de 2021,PNCP;2;0;144;Compras/Contratos/Licitações/Orçamento;ata,compra,compras,contrat,contratação,contrato,contratos,fornecedor,licita,registro de preços
+Ministério da Gestão e da Inovação em Serviços Públicos;Fluxo de Compartilhamento de Dados Pessoais do Cadastro Ambiental Rural (CAR);Este fluxo detalhado foi criado para o compartilhamento de dados pessoais do Cadastro Ambiental Rural (CAR) com órgãos e entidades da administração pública federal direta, autárquica e fundacional, os demais Poderes da União e os estados. O processo é conduzido em estrito cumprimento da Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais - LGPD) e do Decreto nº 10.046, de 9 de outubro de 2019, garantindo a governança e a segurança no tratamento e compartilhamento das informações.;Cadastro,Código Florestal,Meio Ambiente;1;0;141;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Dados Financeiros;"Dados Financeiros das Empresas Estatais Federais.
+
+__Conceito__
+
+Os dados financeiros compreendem os demonstrativos contábeis: Balanço Patrimonial (Balanço), Demonstração do Resultado do Exercício (DRE), Demonstração do Valor Adicionado (DVA) e Demonstração do Fluxo de Caixa (DFC). Além disso, são apresentados os dados de Participação Societária, Composição Acionária e Auditoria Externa.
+
+__Legislação__
+
+Lei nº 13.303, de 2016 (Lei das Estatais);
+Lei nº 6.404, de 1976 (Lei das Sociedades por Ações);
+Resolução CFC 686, de 1990.
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal;1;0;135;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Boletim Estatístico de Pessoal (BEP) - maio/1996 a dez/2016;"Demonstrativo de dados estatísticos como despesa de pessoal da União, quantitativo de servidores públicos, distribuição por faixa de remuneração, informações organizacionais.
+
+__Conceito__
+
+O BEP, maio/1996 a dezembro/2016, é uma publicação em formato de PDF contendo dados estatísticos de pessoal da União, atualizados mensalmente. Em março de 2017, o BEP foi substituído pelo Painel Estatístico de Pessoal (PEP), que concentra as informações estatísticas de pessoal do Poder Executivo Federal, a partir de janeiro de 2017, atualizado mensalmente.
+
+__Política Pública__
+
+Política pública de aperfeiçoamento contínuo dos processos de gestão de pessoas no âmbito da administração pública federal e Política Nacional de Desenvolvimento de Pessoal.
+
+__Outras informações__
+
+https://www.gov.br/economia/pt-br/assuntos/planejamento/gestao-publica/arquivos-e-publicacoes/bep";BEP,PEP,Poder Executivo Federal;1;0;133;Compras/Contratos/Licitações/Orçamento;despesa
+Ministério da Gestão e da Inovação em Serviços Públicos;Dados referentes a preços públicos de bens e serviços de Tecnologia da Informação;"Dados estáticos referentes a compras públicas extraídos do Sistema Integrado de Administração de Serviços Gerais (SIASG), do período de 01/01/2017 a 30/04/2019.
+
+As planilhas estão divididas por período de tempo (quadrimestre). Elas englobam os seguintes bens e serviços de TIC:
+
+1. Serviços de TI - Certificação Digital;
+2. Serviços de TI - Comunicação de Dados;
+3. Serviços de TI - Digitalização de documentos;
+4. Serviços de TI - Fábrica de Software;
+5. Serviços de TI - Outsourcing de Impressão;
+6. Serviços de TI - Service Desk;
+7. Bens de TI - Ativos de Rede;
+8. Bens de TI - Computadores desktop;
+9. Bens de TI - Impressoras;
+10. Bens de TI - Insumos e Peças para Impressoras;
+11. Bens de TI - Monitores;
+12. Bens de TI - Notebooks;
+13. Bens de TI - Pendrives e HD externo;
+14. Bens de TI - Scanners;
+15. Bens de TI - Servidores de Rede;
+16. Bens de TI - Softwares e Aplicativos;
+17. Bens de TI - Storage;
+18. Bens de TI - Tablets;
+19. Bens de TI - Videoconferência.
+
+Esclarece-se os dados disponibilizados nas planilhas contém extrações realizadas entre  01/01/2017 a 30/04/2019 e foram tratadas com filtros, e que, a partir desta data, com a implantação do Painel de Preços e Painel de Compras, descontinuou-se as extrações, uma vez que com a plena implantação dos paineis, o usuário poderá acessar diretamente os dados, na forma bruta, ou aplicar filtros para acessar os dados de interesse, diretamente da fonte. 
+
+Ferramentas de disponibilização de dados de compras públicas:
+
+1- Painel de Compras em:
+http://paineldecompras.economia.gov.br/;
+
+2- Painel de Preços em:
+https://paineldeprecos.planejamento.gov.br/
+
+3- API de Compras Governamentais: http://compras.dados.gov.br/docs/home.html
+
+4- Comprasnet Contratos: https://contratos.comprasnet.gov.br/transparencia/contratos";Licitações e Contratos,compras governamentais,licitação;7;0;126;Compras/Contratos/Licitações/Orçamento;ata,compra,compras,comprasnet,contrat,contrato,contratos,licita,licitação,siasg
+Ministério da Gestão e da Inovação em Serviços Públicos;Dados do Serviço de Adesão ao Sistema Compras.Gov e seus módulos;Este conjunto de dados contém informações dos órgãos que não pertencem ao Sistema de Serviços Gerais, mas que aderiram ao Sistema de Integrado de Administração e Serviços Gerais (SIASG), com toda a fase de adesão realizada por meio do Sistema de Gestão de Acesso (SGA). Abrange dados de órgãos estaduais, municipais, do Distrito Federal e de entidades privadas sem fins lucrativos, além de alguns órgãos federais que não estão cobertos pelo Decreto nº 1.094, de 23 de março de 1994. As informações incluem detalhes como CNPJ, nome do órgão, endereço, CEP, UF, código UASG, entre outros.;compras,sga,siasg;2;0;114;Compras/Contratos/Licitações/Orçamento;compra,compras,compras.gov,siasg
+Ministério da Gestão e da Inovação em Serviços Públicos;Relação de aplicativos móveis disponivel na Conta única de Governo;"Informações sobre os aplicativos móveis do Governo Federal, registrados na conta única GOV.BR da Administração Pública Federal, conforme disposto no Decreto nº 9.756/2019. Os dados são atualizados **semanalmente** para refletir a lista de aplicativos disponíveis na conta unificada do Governo.
+
+As informações disponibilizadas nesta página são mantidas atualizadas, garantindo que o arquivo acessível por meio do link na seção de **Recursos** contenha sempre a versão mais recente dos dados. Essa prática visa assegurar que os usuários tenham acesso contínuo às informações mais atualizadas sobre os aplicativos móveis do Governo Federal.
+
+Para atender demandas específicas por versões históricas ou arquivos correspondentes a datas anteriores, solicitações devem ser encaminhadas diretamente à área técnica responsável. É necessário especificar a data exata do arquivo desejado no pedido, que pode ser enviado para o e-mail de contato técnico disponibilizado.";aplicativo móvel,conta única;2;0;104;Compras/Contratos/Licitações/Orçamento;ata,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Servidores por Municípios;"Contempla dados cadastrais dos servidores públicos ativos do Poder Executivo Federal Civil por Municípios.
+O conjunto de dados não contempla os servidores da Agência Brasileira de Inteligência, Banco Central do Brasil, Defensoria Pública da União, Departamento de Polícia Federal, Departamento de Polícia Rodoviária Federal e os servidores da Carreira de Execução Penal. O Auxílio Natalidade é um benefício devido à servidora por motivo de nascimento de filho, inclusive natimorto, em quantia equivalente ao menor vencimento do serviço público federal vigente na data do nascimento, sendo acrescido de 50% (cinquenta por cento), por nascituro, na hipótese de parto múltiplo. O auxílio natalidade é devido ao cônjuge ou companheiro (servidor público federal), quando a genitora não for ocupante de cargo efetivo regido pela Lei nº 8.112, de 1990. O servidor aposentado possui direito ao auxílio-natalidade.";Poder Executivo Federal,auxílio,natalidade,servidor público;8;0;91;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Metadados para API SICAR Demonstrativo - ConectaGov;"Metadados para os Atributos Listados Abaixo da API de Demonstrativo de Imóvel do CAR por meio de Código do Imóvel no Sicar a ser consultado e Informações de Acesso para essa API:
+
+Parâmetros de Entrada
+codigoImovel.
+
+Parâmetros de Saída
+situacaoImovel;
+codigoImovel;
+descricaoEtapaCadastro;
+areaTotalImovel;
+quantidadeModulosFiscais;	
+dataCadastro;
+dataUltimaAtualizacaoCadastro;	
+codigoMunicipio;	
+municipio;
+unidadeFederativa;
+coordenadasImovelX;	
+coordenadasIimovelY;	
+areaRemanescenteVegetacaoNativa;	
+areaConsolidada;
+areaServidaoAdministrativa;	
+situacaoReservaLegal;	
+areaReservaLegalAverbadaDocumental;	
+areaReservaLegalAverbada;	
+areaReservaLegalAprovadaNaoAverbada;	
+areaReservaLegalProposta;
+areaReservaLegalDeclaradaProprietarioPossuidor;	
+areaPreservacaoPermanente;	
+areaPreservacaoPermanenteAreaRuralConsolida;	
+areaPreservacaoPermanenteAreaRemanescenteVegetacaoNativa;	
+areaUsoRestritoDeclividade;	
+areaReservaLegalPassivoExcedente;
+areaReservaLegalRecompor;	
+areaPreservacaoPermanenteRecomporÁrea;	
+areaUsoRestritoRecompor;	
+areaReservaLegalRecompor;
+sobreposicoesTerraIndigena;	
+sobreposicoesUnidadeConservacao;
+sobreposicoesAreasEmbargadas;	
+poligonoAreaImovel.
+
+Conforme detalhes em: https://www.gov.br/conecta/catalogo/apis/api-sicar-demonstrativo";Cadastro,Código Florestal,Meio Ambiente;1;0;68;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Etapas executadas na plataforma de automação de serviços públicos do gov.br;"Dados anonimizados das etapas executadas na plataforma de automação de serviços públicos do gov.br, tais como, protocolo, órgão, serviço, etapas, fases, status e datas.
+* Importante: O arquivo JSON disponibilizado para download no recurso é atualizado mensalmente.";Atendimento ao cidadão,Decreto 8936-2016,Estratégia de Governo Digital,automação,digitalização de serviços,gov.br,serviços públicos,tempo de execução;2;0;63;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Imóveis da União - Arrecadação Patrimonial;"Em atendimento à [__Lei nº 12.527, de 2011 - Lei de Acesso à Informação__](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); ao Decreto nº 8.777, de 2016, que institui a Política de Dados Abertos do Governo Federal; e ao [__Plano de Dados Abertos do Ministério da Gestão e Inovação em Serviço Público__](http://www.planejamento.gov.br/servicos/central-de-conteudos/publicacoes/plano-de-dados-abertos-pda), a Secretaria do Patrimônio da União publica, neste espaço, dados sobre os bens imobiliários da União registrados em seus bancos de dados.
+
+A Secretaria do Patrimônio da União possui uma página de [__Transparência Ativa__](https://qlik-publico.paineis.gov.br/extensions/transparencia-ativa/transparencia-ativa.html), que fornece, à sociedade, todas as informações referente aos imóveis em si e sobre os ocupantes de imóveis da União. A separação visa a resguardar informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 2012, que regulamenta a Lei de Acesso à Informação.
+
+O cidadão também poderá ter acesso a outras publicações, referente aos imóveis da União, como Depreciação, Arrecadação e Repasse aos municípios, podendo efetuar a baixa destes dados para consultas.
+
+Veja alguns conceitos importantes:
+
+##Imóveis dominiais:
+
+Trata-se de imóveis da União que não são ocupados pela Administração Pública, mas por terceiros. A ocupação pode ser em caráter precário, como é o caso da Inscrição de Ocupação e da Autorização de Uso, ou por meio de instrumentos de direito real para fins de regularização fundiária, tais como: Aforamentos; Concessões de Direito Real de Uso (CDRU); e Concessão de Uso Especial para fins de Moradia (CUEM). 
+
+##Imóveis de Uso Especial:
+
+São os imóveis que se destinam à execução de serviços administrativos ou à prestação de serviços públicos em geral, tais como prédios de repartições públicas. Um prédio onde esteja instalado um hospital público ou uma escola pública também se enquadram na categoria de bens de uso especial. 
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/destinacao-de-imoveis/instrumentos-de-destinacao) para saber mais sobre os instrumentos de destinação patrimonial.
+
+*RIP – Registro Imobiliário Patrimonial*
+É o registro correspondente à utilização, código numérico gerado de acordo com lei de formação estabelecida pela SPU. Conforme informado na lei de formação, é utilizada tanto para o registro de unidades autônomas – matrícula individualizada em cartório, chamada de “RIP imóvel” – como para as utilizações, chamadas de “RIP utilização”. Sua lei de formação é MMMM SSSSS 500 D, onde
+
+    MMMM é o código do Município de localização do Imóvel.
+    SSSSS, sequencial dentro do Município.
+    500: valor fixo para imóveis de Uso Especial.
+    D: DV módulo 11, ciclo 9.
+
+
+A *Conceituação dos imóveis* diz respeito ao tipo de bens da União, conforme definido no art. 20 da Constituição Federal, tais como Terrenos de Marinha, Terrenos de Marginal de Rio, Ilhas, Terras Indígenas, entre outros.
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/bens-da-uniao)
+ para saber mais  sobre bens da União.";Aforamento,Arrecadação,CDRU,CUEM,Imóveis,Ocupação,Patrimônio Imobiliário,TAUS;1;0;54;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Metadados para API Sicar Imóvel - ConectaGov;"Metadados para os Atributos Listados Abaixo da API de Consulta de imóvel do CAR por meio de CPF ou CNPJ e Informações de Acesso para essa API:
+
+Parâmetros de Entrada
+codigoImovel.
+
+Parâmetros de Saída
+identificadorImovel;	
+codigoImovel;
+codigoVersao;
+tipoOrigem;	
+protocolo;	
+dataUltimoProtocolo;	
+statusImovel;	
+tipoImovel;	
+cpfCadastrante;	
+nomeCadastrante;	
+nomeImovel;
+fracaoIdeal;	
+identificadorMunicipio;	
+municipio;	
+areaTotalImovel;	
+numeroModulosFiscais;	
+dataCriacaoRegistro;	
+dataAtualizacaoRegistro;	
+areaTotal;
+declaracaoAnterior;	
+declaracaoPosterior;	
+situacao;
+situacaoMigracao;
+aderiuPra.
+
+Conforme detalhes em: https://www.gov.br/conecta/catalogo/apis/sicar-imovel";Cadastro,Código Florestal,Meio Ambiente;1;0;46;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Imóveis da União - Depreciação dos Imóveis em Uso Especial;"Em atendimento à [__Lei nº 12.527, de 2011 - Lei de Acesso à Informação__](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); ao Decreto nº 8.777, de 2016, que institui a Política de Dados Abertos do Governo Federal; e ao [__Plano de Dados Abertos do Ministério da Gestão e Inovação em Serviço Público__](http://www.planejamento.gov.br/servicos/central-de-conteudos/publicacoes/plano-de-dados-abertos-pda), a Secretaria do Patrimônio da União publica, neste espaço, dados sobre os bens imobiliários da União registrados em seus bancos de dados.
+
+A Secretaria do Patrimônio da União possui uma página de [__Transparência Ativa__](https://qlik-publico.paineis.gov.br/extensions/transparencia-ativa/transparencia-ativa.html), que fornece, à sociedade, todas as informações referente aos imóveis em si e sobre os ocupantes de imóveis da União. A separação visa a resguardar informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 2012, que regulamenta a Lei de Acesso à Informação.
+
+O cidadão também poderá ter acesso a outras publicações, referente aos imóveis da União, como Depreciação, Arrecadação e Repasse aos municípios, podendo efetuar a baixa destes dados para consultas.
+
+Veja alguns conceitos importantes:
+
+##Imóveis dominiais:
+
+Trata-se de imóveis da União que não são ocupados pela Administração Pública, mas por terceiros. A ocupação pode ser em caráter precário, como é o caso da Inscrição de Ocupação e da Autorização de Uso, ou por meio de instrumentos de direito real para fins de regularização fundiária, tais como: Aforamentos; Concessões de Direito Real de Uso (CDRU); e Concessão de Uso Especial para fins de Moradia (CUEM). 
+
+##Imóveis de Uso Especial:
+
+São os imóveis que se destinam à execução de serviços administrativos ou à prestação de serviços públicos em geral, tais como prédios de repartições públicas. Um prédio onde esteja instalado um hospital público ou uma escola pública também se enquadram na categoria de bens de uso especial. 
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/destinacao-de-imoveis/instrumentos-de-destinacao) para saber mais sobre os instrumentos de destinação patrimonial.
+
+*RIP – Registro Imobiliário Patrimonial*
+É o registro correspondente à utilização, código numérico gerado de acordo com lei de formação estabelecida pela SPU. Conforme informado na lei de formação, é utilizada tanto para o registro de unidades autônomas – matrícula individualizada em cartório, chamada de “RIP imóvel” – como para as utilizações, chamadas de “RIP utilização”. Sua lei de formação é MMMM SSSSS 500 D, onde
+
+    MMMM é o código do Município de localização do Imóvel.
+    SSSSS, sequencial dentro do Município.
+    500: valor fixo para imóveis de Uso Especial.
+    D: DV módulo 11, ciclo 9.
+
+
+A *Conceituação dos imóveis* diz respeito ao tipo de bens da União, conforme definido no art. 20 da Constituição Federal, tais como Terrenos de Marinha, Terrenos de Marginal de Rio, Ilhas, Terras Indígenas, entre outros.
+
+[__Clique aqui__](http://www.planejamento.gov.br/assuntos/gestao/patrimonio-da-uniao/bens-da-uniao)
+ para saber mais  sobre bens da União.";Depreciação,SPU,patrimônio da união,uso especial;1;0;43;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Relação dos empregados terceirizados do Ministério da Gestão e da Inovação em Serviços Públicos;"Relação atualizada de empregados terceirizados contratados pelo Ministério da Gestão e da Inovação em Serviços Públicos (MGI). 
+A listagem é disponibilizada no portal do MGI, na seção ""Acesso à informação - Servidores - Relação completa de empregados terceirizados"" ou pelo link direto https://www.gov.br/gestao/pt-br/acesso-a-informacao/servidores/relacao-completa-de-empregados-terceirizados.
+Além disso, a relação é encaminhada quadrimestralmente à Controladoria-Geral da União (CGU), em cumprimento às normas de transparência e controle institucional.";MGI,Terceirização,colaboradores terceirizados ;1;0;42;Compras/Contratos/Licitações/Orçamento;ata,contrat
+Ministério da Gestão e da Inovação em Serviços Públicos;Sistema de Orientação Técnica (SOT);"Dados referentes às orientações técnicas prestadas sobre gestão de documentos pelo Arquivo Nacional. Informações a serem disponibilizadas: Órgão solicitante; Local; Título; Data de criação; Descrição (verificar se na descrição pode existir dados pessoais que inviabilizem a disponibilização do campo informacional sem anonimização).";Arquivo Nacional,Orientações Técnicas;4;0;42;Compras/Contratos/Licitações/Orçamento;ata,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Auxílio-Reclusão;"Contempla dados cadastrais e financeiros dos servidores públicos ativos do Poder Executivo Federal Civil que recebem Auxílio Reclusão. Arquivo em formato CSV.
+O conjunto de dados não contempla os servidores da Agência Brasileira de Inteligência, Banco Central do Brasil, Defensoria Pública da União, Departamento de Polícia Federal, Departamento de Polícia Rodoviária Federal e os servidores da Carreira de Execução Penal. O Auxílio Pré-Escolar é um benefício concedido aos servidores ativos para auxiliar nas despesas pré-escolares de filhos ou dependentes na faixa etária compreendida do nascimento aos 06 (seis) anos de idade.";Poder Executivo Federal,Servidor Público,Servidor Público Federal,auxílio,auxílio pré-escolar;13;0;39;Compras/Contratos/Licitações/Orçamento;despesa
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Programa de Dispêndios Globais;"Usos (Aplicação dos Recursos) e Fontes (Origem dos Recursos) do Programa de Dispêndios Globais.
+
+__Conceito__
+
+O Programa de Dispêndios Globais – PDG é a peça orçamentária das empresas estatais federais não dependentes na visão do Governo Federal. Isso porque compreende as fontes de recursos e os dispêndios previstos para o ano de referência, mantendo-se o alinhamento com os registros contábeis das respectivas empresas, em um Plano de Contas Único que possibilita a padronização e a sistematização da troca de informações econômico-financeiras. O PDG representa importante instrumento para a coordenação e o monitoramento da atuação das estatais federais não dependentes ao captar informações que permitem conhecer o desempenho das empresas no que se refere à geração de receitas e resultados, gestão de despesas, produtividade, entre outros.
+
+__Legislação__
+
+Lei de Diretrizes Orçamentárias – LDO, uma lei anual, que em relação ao PDG estabelece a meta de resultado primário a ser observada no exercício seguinte e a possibilidade de compensação entre as metas estabelecidas para os Orçamentos Fiscal e da Seguridade Social e para o PDG. 
+
+Lei Orçamentária Anual - LOA, uma lei anual, que em relação ao PDG apresenta o demonstrativo sintético, por empresa, informando as fontes de financiamento, suas respectivas aplicações, bem como o resultado primário dessas empresas.
+
+Lei nº 13.303, de 2016 (Lei das Estatais).
+
+Lei nº 6.404, de 1976 (Lei das Sociedades por Ações).
+
+Decreto Presidencial de aprovação do PDG, um decreto anual.
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal,Orçamento;1;0;37;Compras/Contratos/Licitações/Orçamento;ata,despesa,empenh,empenho,orçament,receita
+Ministério da Gestão e da Inovação em Serviços Públicos;Diretório Brasil de Arquivos (Dibrarq);"O Diretório Brasil de Arquivos (DIBRARQ) é uma iniciativa do Arquivo Nacional e o do Conselho Nacional de Arquivos (Conarq) que reúne informações sobre instituições e pessoas que guardam e promovem o acesso aos documentos que custodiam. Como benefício, incrementa a visibilidade dessas entidades custodiadoras de acervos. Informações a serem disponibilizadas: Entidade custodiadora; Nível de descrição; Objeto digital disponível; Instrumento de pesquisa; Status dos direitos autorais; Designação geral do material; Data inicial; Data final.";Arquivo Nacional;4;0;36;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;almoxarifado virtual nacional avn;"O conjunto de dados refere-se ao Almoxarifado Virtual Nacional (AVN), modelo centralizado de fornecimento de materiais de almoxarifado no âmbito do Poder Executivo Federal, que substitui a aquisição via pregão por serviço de outsourcing. A execução contratual é realizada pelas empresas BR Supply e Autopel, responsáveis pelo fornecimento e logística em todo o território nacional.
+Os dados abrangem informações sobre pedidos, itens, unidades demandantes, valores, prazos e entregas. As bases são disponibilizadas diariamente pelas contratadas, com posição do dia anterior, e hospedadas na Coordenação-Geral de Informação (CGINF), vinculada à Secretaria de Gestão (Seges) do Ministério da Gestão e da Inovação em Serviços Públicos (MGI). Objetivo de consumo sustentável 12 (consumo e produção sustentáveis): Meta 12.7: Promover práticas de compras públicas sustentáveis; Meta 12.c: Remover distorções de mercado que incentivam o consumo desnecessário";bases,bases de dados,catálogo,dados;2;0;35;Compras/Contratos/Licitações/Orçamento;ata,compra,compras,contrat,pregão
+Ministério da Gestão e da Inovação em Serviços Públicos;Metadados para API Sicar Tema - ConectaGov;"Metadados para os Atributos Listados Abaixo da API Sicar Tema por meio do Código do Imóvel e Informações de Acesso para essa API:
+
+Parâmetros de Entrada
+codigoImovel.
+
+Parâmetros de Saída
+tema;
+identificadorImovel;	
+areaTotalTema;	
+geoAreaTema;
+
+Conforme detalhes em: https://www.gov.br/conecta/catalogo/apis/sicar-tema";Cadastro,Código Florestal,Meio Ambiente;1;0;33;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Demonstrações Contábeis MGI;As Demonstrações Contábeis são elaboradas em consonância com os dispositivos da Lei nº 4.320/1964, do Decreto-Lei nº 200/1967, do Decreto nº 93.872/1986, da Lei nº 10.180/2001 e da Lei Complementar nº 101/2000. Abrangem, também, as Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP) do Conselho Federal de Contabilidade (CFC), o Manual de Contabilidade Aplicada ao Setor Público (MCASP) e o Manual SIAFI, ambos da Secretaria do Tesouro Nacional (STN). As Demonstrações Contábeis foram elaboradas a partir das informações constantes no Sistema Integrado de Administração Financeira do Governo Federal (SIAFI), e tiveram como escopo as informações consolidadas das contas contábeis das unidades do Ministério da Gestão e da Inovação em Serviços Públicos, administração direta, que é integrante do Orçamento Fiscal e da Seguridade Social (OFSS).;Demonstrações Contábeis,SIAFI;1;0;26;Compras/Contratos/Licitações/Orçamento;orçament,siafi,tesouro
+Ministério da Gestão e da Inovação em Serviços Públicos;Ofício de Notas da Cidade do Rio de Janeiro;"Os registros da base de dados Ofícios de Notas dizem respeito às fichas produzidas na década de 1970 pela antiga Seção do Poder Judiciário do Arquivo Nacional. Esse trabalho não abrange o 6º, 9º, 13º e 17º Ofício de Notas do Rio de Janeiro, pois não foram recolhidos a esta instituição. Informações a serem disponibilizadas: Fundo/Coleção; Série; Título; Sobrenome; Prenome; Responsabilidade; Sobrenome; Prenome; Responsabilidade; Livro; Data.";Arquivo Nacional;4;0;25;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;VLibras - Portais Governamentais com Suíte Vlibras;"Este conjunto de dados apresenta um **inventário atualizado** dos Portais Governamentais brasileiros que implementaram a **Suíte VLibras**, ferramenta essencial para a **acessibilidade** e a tradução de conteúdos para a **Língua Brasileira de Sinais (Libras)**. O *dataset* é focado exclusivamente em órgãos da Administração Pública Federal e suas esferas, abrangendo os seguintes domínios:
+
+* `.gov.br` (Poder Executivo Federal e autarquias)
+* `.jus.br` (Poder Judiciário)
+* `.leg.br` (Poder Legislativo)
+* `.mil.br` (Forças Armadas)
+* `.mp.br` (Ministério Público)
+
+A publicação inaugural deste *dataset* tem como **marco temporal o período de 01/11/2025 a 07/11/2025**. Para garantir a relevância e o valor do dado, a atualização do conjunto é realizada de forma **automática e contínua**, passando a ter como periodicidade o **período mensal completo** nos meses subsequentes. Este modelo assegura que a informação sobre a adoção da tecnologia VLibras seja sempre atualizada. Para solicitações de **histórico de publicações** ou dúvidas sobre o conjunto de dados, favor enviar a requisição para o e-mail da área técnica responsável: **cgplt.sgd@gestao.gov.br**.";vlibras;1;0;25;Compras/Contratos/Licitações/Orçamento;ata,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Gestão de Pessoas (Executivo Federal) - Cargos de Direção e Assessoramento Superiores (DAS) - 1999 a 2016;Um resumo histórico, desde 1998 dos valores que são pagos pelo exercício de Cargos em Comissão Executivos (CCE), Funções Comissionadas Executivas (FCE), Função Comissionada do Poder Executivo (FCPE) e Cargos em Comissão do Grupo-Direção e Assessoramento Superiores (DAS).;Poder Executivo Federal,auxílio,natalidade,servidor público;2;0;23;Compras/Contratos/Licitações/Orçamento;ata,pago
+Ministério da Gestão e da Inovação em Serviços Públicos;Dados sobre os normativos e orientacoes do poder executivo federal sobre contratacoes de TIC;Dados sobre os normativos e orientações vigentes do poder executivo federal sobre contratações de TIC. Leis, Decretos, Instruções Normativas da Secretaria de Governo Digital, outras Instruções Normativas, Portarias, Leis e Normas Revogadas.;Normativos sobre contratações de TIC,contratações de TIC;1;0;19;Compras/Contratos/Licitações/Orçamento;ata,contrat
+Ministério da Gestão e da Inovação em Serviços Públicos;Catálogo de Serviços Compartilhados do ColaboraGov;O Catalogo de Serviços é uma lista organizada de todos os serviços que o MGI oferece aos órgãos do ColaboraGov. Ele funciona como uma vitrine, onde os colaboradores podem encontrar informações sobre os serviços disponíveis, como descrições, prazos de entrega, custos e como solicitá-los. É possível acessa-lo através do seguinte portal https://www.gov.br/servicoscompartilhados/pt-br/servicos/catalogo-de-servicos;catalogo;1;0;18;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Biblioteca Maria Beatriz Nascimento (Plataforma para preservação e acesso a objetos digitais do AN);"Plataforma voltada para a indexação, preservação e acesso aos objetos informacionais digitais publicados e produzidos pela instituição, bem como obras que tenham o Arquivo Nacional como tema. Informações a serem disponibilizadas: Tipo de documento; Título; Autor; Instituição; Resumo; Notas; Assuntos; Local; Fonte; Data; Editor; Coleções.";Arquivo Nacional;4;0;17;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Dados sinteticos das analises de aquisicoes de grande vulto de TIC realizadas e deliberadas;Dados sintéticos das análises de aquisições de grande vulto de TIC realizadas e deliberadas (Análise de alçadas de valor realizadas pela SGD para contratações cujo valor estimado é superior a 20 milhões de reais).;Alçadas de Valor de Contratações de TIC,Aquisições de TIC de grande vulto,Instrução Normativa 06 de 2023 SGD MGI,contratações de TIC;1;0;17;Compras/Contratos/Licitações/Orçamento;ata,contrat
+Ministério da Gestão e da Inovação em Serviços Públicos;Roteiro de Fontes do Arquivo Nacional para a História Luso-Brasileira;"Base de dados que abrange um universo de três mil e quinhentos conjuntos documentais. O acervo relativo ao período (século XVI até a Independência) está indexado por temas, lugares e nomes de instituições ou indivíduos. Informações a serem disponibilizadas: Conjunto documental; Notação; Datas limites; Fundo ou Coleção; Descritores Onomásticos; Descritores Toponímicos; Descritores Temáticos; Observações.";Arquivo Nacional;4;0;8;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Canais de Atendimento do ColaboraGov - CompartilhaGestão;O CompartilhaGestão é um sistema de gestão de demandas que permite aos colaboradores solicitar a prestação de serviços de forma prática e organizada, trazendo mais transparência no acompanhamento do serviço.;conjunto de dados;1;0;7;Compras/Contratos/Licitações/Orçamento;licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Módulo de Atendimento à Distância;"Ferramenta de consulta ao instrumento de pesquisa do SIAN e de solicitação de serviço. Informações a serem disponibilizadas: Objeto da Pesquisa; Serviço/Produto fornecidos; Data.";Arquivo Nacional;4;0;7;Compras/Contratos/Licitações/Orçamento;ata,licita,licitação
+Ministério da Gestão e da Inovação em Serviços Públicos;Canais de Atendimento do ColaboraGov - CompartilhaServiços;O Compartilha Serviços é uma plataforma criada para melhorar a organização dos serviços de TI, tornando tudo mais rápido e eficiente. Ela ajuda em várias áreas, como registro de problemas, pedidos de serviços, catálogo de serviços, base de conhecimento e controle de mudanças. A plataforma automatiza tarefas repetitivas e processos manuais, permitindo que a equipe de TI se dedique a atividades mais importantes. Também facilita a criação e a gestão de um catálogo com os serviços disponíveis, tornando mais fácil para os usuários encontrarem e solicitarem o que precisam.;Tecnologia;1;0;6;Compras/Contratos/Licitações/Orçamento;ata,licita
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Endividamento - Legado;"Dados Legados de Endividamento das Empresas Estatais Federais
+
+__Conceito__
+
+Este conjunto reúne informações sobre o endividamento das empresas estatais federais até o exercício de 2024. A partir do exercício de 2025, essas informações passam a integrar o conjunto de dados financeiros. 
+
+Os dados são apresentados no formato de natureza e prazo de vencimento do endividamento.
+
+__Legislação__
+
+Lei nº 13.303, de 2016 (Lei das Estatais);
+Lei nº 6.404, de 1976 (Lei das Sociedades por Ações).
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal;1;0;6;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Centro de Referência de Acervos Presidenciais;"O Centro de Referência de Acervos dos Presidentes fornece informações sobre os acervos documentais privados dos presidentes da República, produzidos e acumulados antes, durante e depois do mandato presidencial, guardados em instituições públicas, entidades privadas ou pelo próprio titular. Informações a serem disponibilizadas: Entidade custodiadora/instituições; Local; Presidente da República; Data inicial; Data final.";Arquivo Nacional,Presidência da República;4;0;5;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Família Ferrez;"Contém informações sobre o acervo documental de cerca de 40 mil itens acumulados e preservados ao longo de mais de 150 anos. Inclui os arquivos pessoais de Gilberto Ferrez, do seu pai, tio e avô, respectivamente, Júlio, Luciano e Marc Ferrez, além do arquivo da firma comercial que possuíam. Informações a serem disponibilizadas: Número de acessos à base de dados; Fundo; Data; Conteúdo; Local; Assunto; Autoria.";Arquivo Nacional;4;0;5;Compras/Contratos/Licitações/Orçamento;ata
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Gestão de Dirigentes e Conselheiros (Atual);"Informações sobre dirigentes, conselheiros e membros de Comitê das Empresas Estatais Federais.
+
+__Conceito__
+
+Dirigentes, conselheiros e membros de Comitê de empresas estatais são pessoas que ocupam cargos de liderança e supervisão dentro dessas empresas que pertencem ao governo federal.
+
+Dirigentes são os responsáveis pela gestão executiva da empresa. Tomam decisões operacionais e estratégicas para fazer a empresa funcionar. Exemplos: presidente (ou CEO) e diretores (financeiro, operacional, etc.).
+
+Conselheiros fazem parte do chamado Conselho de Administração ou do Conselho Fiscal. O Conselho de Administração é o órgão estratégico e de decisão, que define os rumos da empresa (estratégia, investimentos, metas), escolhe e pode demitir os dirigentes (diretores, presidente), acompanha o desempenho da gestão e aprova decisões importantes (fusões, grandes contratos, etc.). Já o Conselho Fiscal é o órgão de fiscalização e controle, atuando na análise das contas da empresa e acompanhamento do cumprimento de leis e normas.
+
+Membros de comitê são pessoas que fazem parte de times especializados dentro da estrutura de governança de uma empresa para tratar de temas específicos (auditoria, governança, pessoas, riscos, etc.) com mais profundidade e analisar assuntos importantes antes das decisões finais do Conselho.
+
+Em empresas estatais federais, esses cargos costumam ter ligação com o governo, já que o controle da empresa pertence à União. Por isso, muitas vezes são indicados por autoridades públicas, mas devem seguir regras de governança.
+
+__Legislação__
+
+No Brasil, esse tipo de empresa é regulamentado pela Lei n° 13.303, de 2016 (Lei das Estatais).
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal;1;0;4;Compras/Contratos/Licitações/Orçamento;ata,contrat,contrato,contratos,empenh,empenho
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Gestão de Dirigentes e Conselheiros (Legado);"Informações legadas sobre dirigentes, conselheiros e membros de Comitê das Empresas Estatais Federais.
+
+__Conceito__
+
+Dirigentes, conselheiros e membros de Comitê de empresas estatais são pessoas que ocupam cargos de liderança e supervisão dentro dessas empresas que pertencem ao governo federal.
+
+Dirigentes são os responsáveis pela gestão executiva da empresa. Tomam decisões operacionais e estratégicas para fazer a empresa funcionar. Exemplos: presidente (ou CEO) e diretores (financeiro, operacional, etc.).
+
+Conselheiros fazem parte do chamado Conselho de Administração ou do Conselho Fiscal. O Conselho de Administração é o órgão estratégico e de decisão, que define os rumos da empresa (estratégia, investimentos, metas), escolhe e pode demitir os dirigentes (diretores, presidente), acompanha o desempenho da gestão e aprova decisões importantes (fusões, grandes contratos, etc.). Já o Conselho Fiscal é o órgão de fiscalização e controle, atuando na análise das contas da empresa e acompanhamento do cumprimento de leis e normas.
+
+Membros de comitê são pessoas que fazem parte de times especializados dentro da estrutura de governança de uma empresa para tratar de temas específicos (auditoria, governança, pessoas, riscos, etc.) com mais profundidade e analisar assuntos importantes antes das decisões finais do Conselho.
+
+Em empresas estatais federais, esses cargos costumam ter ligação com o governo, já que o controle da empresa pertence à União. Por isso, muitas vezes são indicados por autoridades públicas, mas devem seguir regras de governança.
+
+__Legislação__
+
+No Brasil, esse tipo de empresa é regulamentado pela Lei n° 13.303, de 2016 (Lei das Estatais).
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal;1;0;3;Compras/Contratos/Licitações/Orçamento;ata,contrat,contrato,contratos,empenh,empenho
+Ministério da Gestão e da Inovação em Serviços Públicos;Abono de Permanência do Poder Executivo Federal;"Abono de Permanência
+O abono de permanência é um benefício pecuniário concedido ao servidor que opte por permanecer em atividade após ter cumprido todos os requisitos para aposentadoria voluntária, no valor equivalente à sua contribuição previdenciária, até completar as exigências para a aposentadoria compulsória.
+INFORMAÇÕES GERAIS
+	O tempo de serviço e/ou contribuição anterior à FIOCRUZ, deverá ser comprovado mediante certidões emitidas pelo Instituto Nacional de Seguridade Social ou pelo respectivo órgão da Administração Pública.
+	O Abono de Permanência é devido a partir do cumprimento dos requisitos para sua obtenção, limitada a vigência da Emenda Constitucional 41, de 19.12.2003, conforme orientação contida no Ofício Circular n° 25/SRH/MP, de 29.10.2004 e § 3º do art. 3º da Orientação Normativa nº 01/SPS/INSS, de 06.01.2004.
+	O passivo financeiro gerado no período anterior a janeiro de 2005 será efetivado observando-se as regras de pagamento de exercício anteriores.
+
+EXIGÊNCIA DOCUMENTAL
+Deverá ser anexado ao requerimento de concessão do Abono de Permanência, o Mapa de Tempo de Serviço devidamente atualizado e assinado pelo SRH da unidade de lotação do requerente.
+
+PROCEDIMENTOS
+A concessão do Abono de Permanência será efetivada mediante a protocolização do pedido do servidor através de requerimento próprio, devendo constar a expressão opção por permanecer em atividade.
+";servidor federal;0;0;0;Compras/Contratos/Licitações/Orçamento;pagamento
+Ministério da Gestão e da Inovação em Serviços Públicos;Afastamento Remunerado;"Afastamentos e Licenças
+
+O servidor público federal dispõe de modalidades de afastamentos e de licenças que estão previstas por legislação específica e relacionadas pela necessidade do servidor e da administração pública.
+Em relação às modalidades e às suas especificidades, seguem os diferentes tipos de afastamentos e licenças previstos pela legislação brasileira.
+
+Afastamentos
+Afastamento para Justiça Eleitoral
+Afastamento para Mandato Eletivo
+Afastamento para ser cedido para ter exercício em outro órgão ou entidade dos   Poderes da União, dos Estados, ou do Distrito Federal e dos Municípios
+Afastamento para Estudo ou Missão no Exterior
+Afastamentos para realização de programas de mestrado e doutorado
+Afastamentos para realização de programas de pós-doutorado
+Afastamento de servidor para servir em organismo internacional de que o Brasil participe ou com o qual coopere dar-se-á com perda total da remuneração.
+ 
+Licenças
+Licença à Maternidade
+Licença Incentivada sem Remuneração
+Licença para Atividade Política
+Licença para Capacitação
+Licença para Desempenho de Mandato Classista
+Licença para Tratamento de Saúde
+Licença para Tratar de Interesses Particulares
+Licença Paternidade
+Licença por Acidente em Serviço
+Licença por Motivo de Afastamento do Cônjuge ou Companheiro
+Licença por Motivo de Doença em Pessoa da Família
+Licença-Prêmio por Assiduidade
+
+";Afastamento Remunerado,Servidor;0;0;0;Compras/Contratos/Licitações/Orçamento;ata,empenh,empenho
+Ministério da Gestão e da Inovação em Serviços Públicos;Brasil Mapeado;"O Brasil Mapeado é um aplicativo que permite a visualização em uma dimensão espacial de vários tipos de instalações e os espaços físicos, públicos ou privados, onde é prestado de forma presencial algum tipo de serviço do poder público à pessoa física ou jurídica.
+
+![exemplo de tela do mapa](/wp/wp-content/uploads/2017/10/brasil-mapeado-546px.gif)
+
+O aplicativo foi construido para o o [Concurso de Aplicativos para Dados Abertos](/concurso/concurso-nacional-de-dados-abertos) realizado pelo Ministério do Planejamento, Orçamento e Gestão; e pelo Comitê Gestor da Internet no Brasil (CGI.Br), representado pelo Núcleo de Informação e Coordenação do Ponto BR (NIC.Br), por meio do Escritório Brasileiro do W3C Brasil
+
+A partir da localização fornecida (primeiramente tenta-se obter a localização através de um [serviço de geolocalização disponível na internet](http://www.w3schools.com/html/html5_geolocation.asp) - verificar se o browser tem permissão de geolocalização - e no caso de insucesso, o usuário poderá digitar sua cidade ou endereço atual), a aplicação será iniciada com o mapa tendo como ponto central sua localização. Atentamos que o serviço de localização não é muito preciso, porém ao ser acessado por dispositivos móveis que disponha da ferramente de GPS e está esteja ativada, a geocodificação é mais precisa.
+
+No lado direita da aplicação, tem-se o gerenciador de camadas, no qual são exibidas todas as camadas de equipamentos públicos disponíveis. Ao selecionar qualquer uma das camadas, será exibido no mapa, caso existam, os equipamentos mais próximos de sua localização. Clicando sobre qualquer um dos ícone, um Info-Window (janela de informação) com os detalhes dos equipamentos será exibida, tendo a possibilidade de compartilhamento com Facebook ou Twitter.";Cartografia,Mapas Interativos,atendimento ao cidadão,equipamentos públicos;1;0;0;Compras/Contratos/Licitações/Orçamento;orçament
+Ministério da Gestão e da Inovação em Serviços Públicos;Empresas Estatais Federais - Política de Aplicação das Agências Financeiras Oficiais de Fomento;"Política de Aplicação das Agências Financeiras Oficiais de Fomento.
+
+__Conceito__
+
+Trata-se de plano de aplicação de recursos (empréstimos e financiamentos) das agências financeiras oficiais de fomento, observando a preservação e geração do emprego e as prioridades determinadas anualmente pela Lei de Diretrizes Orçamentárias (LDO).
+
+As Agências Financeiras de Fomento configuram mecanismos de realização de políticas públicas de investimento e desenvolvimento, cujo objetivo maior é a propagação do bem-estar social, contribuindo para o desenvolvimento social e econômico dos estados, a fim de garantir sua sustentabilidade e reduzir as desigualdades regionais e sociais.
+
+Assim, são consideradas agências oficiais, em relação à política de aplicação, o Banco da Amazônia S.A (BASA), o Banco do Brasil S.A. (BB), o Banco Nacional de Desenvolvimento Econômico e Social (BNDES) e suas subsidiárias (o BNDES Participações - BNDESPAR e a Agência Especial de Financiamento Industrial - FINAME), o Banco do Nordeste do Brasil S.A. (BNB), a Caixa Econômica Federal (CAIXA) e a Financiadora de Estudos e Projetos (FINEP).
+
+__Legislação__
+
+Lei de Diretrizes Orçamentárias – LDO, uma lei anual, que em relação às agências financeiras oficiais de fomento define as diretrizes de como devem ser aplicados seus recursos.
+
+Lei Orçamentária Anual - LOA, uma lei anual, que em relação às agências financeiras oficiais de fomento constam com valores e previsões financeiras, especialmente no orçamento de investimento e nas operações de crédito.
+
+Lei nº 13.303, de 2016 (Lei das Estatais).
+
+__Veja Também__
+
+Visite também o Panorama das Estatais para obter outras informações sobre as Empresas Estatais Federais:
+
+https://panoramadasestatais.gestao.gov.br/";Empresas Estatais,Governo Federal,Orçamento;1;0;0;Compras/Contratos/Licitações/Orçamento;ata,orçament
